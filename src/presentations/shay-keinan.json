@@ -1,0 +1,11 @@
+{
+  "speakers": [
+    {
+      "$ref": "../speakers/shay-keinan.json"
+    }
+  ],
+  "session": {
+    "title": "ReactVR",
+    "description": ""
+  }
+}

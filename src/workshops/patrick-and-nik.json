@@ -1,0 +1,14 @@
+{
+  "speakers": [
+    {
+      "$ref": "../speakers/patrick-stapfer.json"
+    },
+    {
+      "$ref": "../speakers/nik-graf.json"
+    }
+  ],
+  "session": {
+    "title": "ReasonML",
+    "description": ""
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "speakers": [
+    {
+      "$ref": "../speakers/jani-evakallio.json"
+    }
+  ],
+  "session": {
+    "title": "",
+    "description": ""
+  }
+}

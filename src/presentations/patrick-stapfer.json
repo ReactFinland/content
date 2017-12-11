@@ -1,0 +1,11 @@
+{
+  "speakers": [
+    {
+      "$ref": "../speakers/patrick-stapfer.json"
+    }
+  ],
+  "session": {
+    "title": "ReasonML",
+    "description": ""
+  }
+}

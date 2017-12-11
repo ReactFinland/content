@@ -1,0 +1,11 @@
+{
+  "speakers": [
+    {
+      "$ref": "../speakers/nik-graf.json"
+    }
+  ],
+  "session": {
+    "title": "React VR",
+    "description": ""
+  }
+}
