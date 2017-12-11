@@ -12,5 +12,12 @@
   "license": "MIT",
   "devDependencies": {
     "prettier": "^1.9.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ReactFinland/content-2018.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ReactFinland/content-2018/issues"
   }
 }
