@@ -1,5 +1,3 @@
-const resolveRefs = require("../resolve-refs");
-
-module.exports = resolveRefs({
-  varyaStepanova: require("./varya-stepanova.json"),
-});
+module.exports = {
+  varyaStepanova: require("./varya-stepanova"),
+};

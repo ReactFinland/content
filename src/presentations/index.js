@@ -1,14 +1,12 @@
-const resolveRefs = require("../resolve-refs");
-
-module.exports = resolveRefs({
-  christianAlfoni: require("./christian-alfoni.json"),
-  davidKhourshid: require("./david-khourshid.json"),
-  gantLaborde: require("./gant-laborde.json"),
-  kasiaJastrzebska: require("./kasia-jastrzebska.json"),
-  nikGraf: require("./nik-graf.json"),
-  patrickStapfer: require("./patrick-stapfer.json"),
-  rotemMizrachiMeidan: require("./rotem-mizrachi-meidan.json"),
-  saraVieira: require("./sara-vieira.json"),
-  shayKeinan: require("./shay-keinan.json"),
-  siaKaramalegos: require("./sia-karamalegos.json"),
-});
+module.exports = {
+  christianAlfoni: require("./christian-alfoni"),
+  davidKhourshid: require("./david-khourshid"),
+  gantLaborde: require("./gant-laborde"),
+  kasiaJastrzebska: require("./kasia-jastrzebska"),
+  nikGraf: require("./nik-graf"),
+  patrickStapfer: require("./patrick-stapfer"),
+  rotemMizrachiMeidan: require("./rotem-mizrachi-meidan"),
+  saraVieira: require("./sara-vieira"),
+  shayKeinan: require("./shay-keinan"),
+  siaKaramalegos: require("./sia-karamalegos"),
+};
