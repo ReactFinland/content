@@ -5,7 +5,7 @@
   "main": "./src",
   "scripts": {
     "format": "prettier ./src/**/{*.js,*.json} --write",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node tests/smoke.js"
   },
   "keywords": [],
   "author": "",

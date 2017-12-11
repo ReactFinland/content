@@ -1,4 +1,6 @@
-module.exports = {
+const resolveRefs = require("../resolve-refs");
+
+module.exports = resolveRefs({
   christianAlfoni: require("./christian-alfoni.json"),
   davidKhourshid: require("./david-khourshid.json"),
   gantLaborde: require("./gant-laborde.json"),
@@ -9,4 +11,4 @@ module.exports = {
   saraVieira: require("./sara-vieira.json"),
   shayKeinan: require("./shay-keinan.json"),
   siaKaramalegos: require("./sia-karamalegos.json"),
-};
+});
