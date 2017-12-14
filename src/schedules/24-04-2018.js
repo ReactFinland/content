@@ -4,7 +4,6 @@ module.exports = {
   day,
   intervals: [
     {
-      day,
       begin: "09:00",
       end: "13:00",
       sessions: [
@@ -19,7 +18,6 @@ module.exports = {
       ],
     },
     {
-      day,
       begin: "14:00",
       end: "18:00",
       sessions: [
@@ -34,7 +32,6 @@ module.exports = {
       ],
     },
     {
-      day,
       begin: "09:00",
       end: "18:00",
       sessions: [require("../workshops/michel-weststrate")],
