@@ -1,7 +1,5 @@
 module.exports = {
   speakers: [require("../speakers/sara-vieira")],
-  session: {
-    title: "React Testing",
-    description: "",
-  },
+  title: "React Testing",
+  description: "",
 };

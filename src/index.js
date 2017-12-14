@@ -1,8 +1,10 @@
 module.exports = {
-  keynotes: require("./keynotes"),
+  breakfasts: require("./breakfasts"),
+  coffeeBreaks: require("./coffee-breaks"),
   lightningTalks: require("./lightning-talks"),
+  lunches: require("./lunches"),
+  panels: require("./panels"),
   presentations: require("./presentations"),
-  schedule: require("./schedules"), // XXX: deprecated, drop
   schedules: require("./schedules"),
   speakers: require("./speakers"),
   workshops: require("./workshops"),

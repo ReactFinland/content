@@ -1,7 +1,5 @@
 module.exports = {
   speakers: [require("../speakers/shay-keinan")],
-  session: {
-    title: "ReactVR",
-    description: "",
-  },
+  title: "ReactVR",
+  description: "",
 };

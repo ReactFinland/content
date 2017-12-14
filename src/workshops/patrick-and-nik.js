@@ -3,9 +3,8 @@ module.exports = {
     require("../speakers/patrick-stapfer"),
     require("../speakers/nik-graf"),
   ],
-  session: {
-    title: "Getting Started with ReasonML & ReasonReact",
-    description: `ReasonML is a new cool JavaScript-like language with a strong type-system and first level React bindings. As with every new language, there comes a new ecosystem and unfamiliar concepts with it.
+  title: "Getting Started with ReasonML & ReasonReact",
+  description: `ReasonML is a new cool JavaScript-like language with a strong type-system and first level React bindings. As with every new language, there comes a new ecosystem and unfamiliar concepts with it.
 
 In this workshop, attendees will first of all learn how to setup and use ReasonML with React and find explanations on how to find relevant information for their coding problems (navigating the docs, leverage the community).
 
@@ -23,5 +22,4 @@ In more detail, the workshop will cover following topics:
 - Interoperability with existing JavaScript
 
 In the end, ambitious attendees will be able to integrate Reason React components in their existing React codebase without interrupting the existing development workflows.`,
-  },
 };

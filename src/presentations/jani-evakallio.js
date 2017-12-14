@@ -1,7 +1,5 @@
 module.exports = {
   speakers: [require("../speakers/jani-evakallio")],
-  session: {
-    title: "",
-    description: "",
-  },
+  title: "React VR",
+  description: "",
 };

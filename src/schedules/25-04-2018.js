@@ -1,89 +1,85 @@
-module.exports = [
-  {
-    interval: {
+const day = "25-04-2018";
+
+module.exports = {
+  day,
+  intervals: [
+    {
+      day,
       begin: "08:00",
       end: "09:00",
+      sessions: [require("../breakfasts")[day]],
     },
-    description: "Registration, Finnish breakfast. Trust me, it's the best.",
-  },
-  {
-    interval: {
+    {
+      day,
       begin: "09:00",
       end: "10:00",
+      sessions: [require("../presentations/ken-wheeler")],
     },
-    description: "Keynote by Ken Wheeler.",
-  },
-  {
-    interval: {
+    {
+      day,
       begin: "10:00",
       end: "11:00",
+      sessions: [require("../presentations/kasia-jastrzebska")],
     },
-    description:
-      "**Styled Components, SSR, and Theming** with Kasia Jastrzębska.",
-  },
-  {
-    interval: {
+    {
+      day,
       begin: "11:00",
       end: "11:30",
+      sessions: [require("../lightning-talks")[day][0]],
     },
-    description: "Four lightning talks.",
-  },
-  {
-    interval: {
+    {
+      day,
       begin: "11:30",
       end: "12:30",
+      sessions: [require("../lunches")[day]],
     },
-    description: "Lunch. It's functional. You are **not** supposed to like it.",
-  },
-  {
-    interval: {
+    {
+      day,
       begin: "12:30",
       end: "13:00",
+      sessions: [require("../panels")[day][0]],
     },
-    description: "Panel discussion.",
-  },
-  {
-    interval: {
+    {
+      day,
       begin: "13:00",
       end: "14:00",
+      sessions: [require("../presentations/christian-alfoni")],
     },
-    description:
-      "**Declarative state and side effects** with Christian Alfoni.",
-  },
-  {
-    interval: {
+    {
+      day,
       begin: "14:00",
       end: "15:00",
+      sessions: [require("../presentations/sia-karamalegos")],
     },
-    description: "**Universal React Apps Using Next.js** with Sia Karamalegos.",
-  },
-  {
-    interval: {
+    {
+      day,
       begin: "15:00",
-      end: "16:30",
+      end: "15:45",
+      sessions: [require("../presentations/sara-vieira")],
     },
-    description: "**Testing** with Sara Vieira and Rotem Mizrachi-Meidan.",
-  },
-  {
-    interval: {
+    {
+      day,
+      begin: "15:45",
+      end: "16:30",
+      sessions: [require("../presentations/rotem-mizrachi-meidan")],
+    },
+    {
+      day,
       begin: "16:30",
       end: "17:00",
+      sessions: [require("../coffee-breaks")[day][1]],
     },
-    description:
-      "Coffee break. We don't mind if you drink tea, though. Water is available as well.",
-  },
-  {
-    interval: {
+    {
+      day,
       begin: "17:00",
       end: "17:30",
+      sessions: [require("../lightning-talks")[day][1]],
     },
-    description: "Four lightning talks.",
-  },
-  {
-    interval: {
+    {
+      day,
       begin: "17:30",
       end: "18:00",
+      sessions: [require("../panels")[day][1]],
     },
-    description: "Panel discussion to end the day in style.",
-  },
-];
+  ],
+};

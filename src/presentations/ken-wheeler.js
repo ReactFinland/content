@@ -1,7 +1,5 @@
 module.exports = {
   speakers: [require("../speakers/ken-wheeler")],
-  session: {
-    title: "",
-    description: "",
-  },
+  title: "React VR",
+  description: "",
 };
