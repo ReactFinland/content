@@ -25,7 +25,11 @@ module.exports = {
       day,
       begin: "11:00",
       end: "11:30",
-      sessions: [require("../lightning-talks")[day][0]],
+      sessions: [
+        {
+          title: "Four lightning talks",
+        },
+      ],
     },
     {
       day,
@@ -73,7 +77,11 @@ module.exports = {
       day,
       begin: "17:00",
       end: "17:30",
-      sessions: [require("../lightning-talks")[day][1]],
+      sessions: [
+        {
+          title: "Four lightning talks",
+        },
+      ],
     },
     {
       day,
