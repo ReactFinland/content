@@ -6,7 +6,7 @@ module.exports = {
     {
       begin: "08:00",
       end: "09:00",
-      sessions: [require("../breakfasts")[day]],
+      sessions: [require("../breakfasts")[day][0]],
     },
     {
       begin: "09:00",
@@ -30,7 +30,7 @@ module.exports = {
     {
       begin: "11:30",
       end: "12:30",
-      sessions: [require("../lunches")[day]],
+      sessions: [require("../lunches")[day][0]],
     },
     {
       begin: "12:30",
