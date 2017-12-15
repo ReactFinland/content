@@ -6,4 +6,5 @@ module.exports = {
   homepage: "http://varya.me/",
   twitter: "varya_en",
   github: "varya",
+  linkedin: "varyastepanova",
 };

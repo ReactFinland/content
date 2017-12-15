@@ -6,4 +6,5 @@ module.exports = {
   homepage: "https://survivejs.com/",
   twitter: "bebraw",
   github: "bebraw",
+  linkedin: "juhovepsalainen",
 };

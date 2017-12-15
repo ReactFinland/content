@@ -6,4 +6,5 @@ module.exports = {
   homepage: "",
   twitter: "jevakallio",
   github: "jevakallio",
+  linkedin: "jevakallio",
 };
