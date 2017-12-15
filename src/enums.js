@@ -1,2 +1,4 @@
-exports.KEYNOTE = "keynote";
-exports.LIGHTING_TALK = "lightingTalk";
+module.exports = {
+  KEYNOTE: "keynote",
+  LIGHTING_TALK: "lightningTalk",
+};
