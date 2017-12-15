@@ -60,7 +60,7 @@ module.exports = {
     {
       begin: "16:30",
       end: "17:00",
-      sessions: [require("../coffee-breaks")[day][1]],
+      sessions: [require("../coffee-breaks")[day][0]],
     },
     {
       begin: "17:00",
