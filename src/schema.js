@@ -1,5 +1,5 @@
 const { makeExecutableSchema } = require("graphql-tools");
-const content2018 = require("./");
+const content = require("./");
 
 const typeDefs = `
   type Query {
@@ -53,13 +53,8 @@ const typeDefs = `
 function generateQueries() {
   const ret = {};
 
-  Object.keys(content2018).forEach(k => {
-    // Skip enums and the schema itself
-    if (k === "enums" || k === "schema") {
-      return;
-    }
-
-    ret[k] = () => Object.values(content2018[k]);
+  Object.keys(content).forEach(k => {
+    ret[k] = () => Object.values(content[k]);
   });
 
   return ret;
