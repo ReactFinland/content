@@ -10,13 +10,15 @@ const typeDefs = `
     presentations: [Session],
     schedules: [Schedule],
     speakers: [Speaker],
+    tickets: [[Ticket]],
     workshops: [Session]
   }
 
   type Session {
     title: String,
     description: String,
-    speakers: [Speaker]
+    speakers: [Speaker],
+    tickets: [Ticket]
   }
 
   type Speaker {
@@ -38,6 +40,13 @@ const typeDefs = `
     begin: String,
     end: String,
     sessions: [Session]
+  }
+
+  type Ticket {
+    name: String!,
+    amount: Int!,
+    currency: String!,
+    link: String
   }
 `;
 

@@ -10,4 +10,14 @@ module.exports = {
 5. Composing trees and types
 6. Connecting to GraphQL
 7. Writing your own middleware`,
+  tickets: [
+    {
+      ...require("../tickets").dayWorkshop[0],
+      link: "https://ti.to/react-finland/2018/with/xqzmkr5xxk8",
+    },
+    {
+      ...require("../tickets").dayWorkshop[1],
+      link: "https://ti.to/react-finland/2018/with/uv5zrkj3ybu",
+    },
+  ],
 };

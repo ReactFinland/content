@@ -8,5 +8,6 @@ module.exports = {
   schema: require("./schema"),
   schedules: require("./schedules"),
   speakers: require("./speakers"),
+  tickets: require("./tickets"),
   workshops: require("./workshops"),
 };

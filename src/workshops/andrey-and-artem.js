@@ -16,4 +16,22 @@ module.exports = {
   * Create a living style guide and start building a component library
   * Structure your application around components
   * Write maintainable styles for your components based on the design system`,
+  tickets: [
+    {
+      ...require("../tickets").morningWorkshop[0],
+      link: "https://ti.to/react-finland/2018/with/psj-1zlofwo",
+    },
+    {
+      ...require("../tickets").morningWorkshop[1],
+      link: "https://ti.to/react-finland/2018/with/qvu9ipia14e",
+    },
+    {
+      ...require("../tickets").eveningWorkshop[0],
+      link: "https://ti.to/react-finland/2018/with/ip0xmn7dg2q",
+    },
+    {
+      ...require("../tickets").eveningWorkshop[1],
+      link: "https://ti.to/react-finland/2018/with/vll01sed0uq",
+    },
+  ],
 };

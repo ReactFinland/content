@@ -12,4 +12,22 @@ The topics covered include:
 * Bundle/code splitting
 * Build analysis
 * Optimizing the build`,
+  tickets: [
+    {
+      ...require("../tickets").morningWorkshop[0],
+      link: "https://ti.to/react-finland/2018/with/ed-qbtu5iyy",
+    },
+    {
+      ...require("../tickets").morningWorkshop[1],
+      link: "https://ti.to/react-finland/2018/with/vwtcvheo28e",
+    },
+    {
+      ...require("../tickets").eveningWorkshop[0],
+      link: "https://ti.to/react-finland/2018/with/hfbos2nheb0",
+    },
+    {
+      ...require("../tickets").eveningWorkshop[1],
+      link: "https://ti.to/react-finland/2018/with/xaizfkm1nbe",
+    },
+  ],
 };
