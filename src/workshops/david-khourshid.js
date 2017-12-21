@@ -1,3 +1,5 @@
+const keywords = require("../keywords");
+
 module.exports = {
   speakers: [require("../speakers/david-khourshid")],
   title: "Reactive State Machines and Statecharts",
@@ -20,4 +22,5 @@ module.exports = {
       link: "https://ti.to/react-finland/2018/with/duwuhyzgmq8",
     },
   ],
+  keywords: require("../speakers/david-khourshid").keywords,
 };

@@ -1,3 +1,5 @@
+const keywords = require("../keywords");
+
 module.exports = {
   speakers: [require("../speakers/gant-laborde")],
   title: "React Native",
@@ -20,4 +22,5 @@ module.exports = {
       link: "https://ti.to/react-finland/2018/with/w-nkcuf9k-a",
     },
   ],
+  keywords: require("../speakers/gant-laborde").keywords,
 };

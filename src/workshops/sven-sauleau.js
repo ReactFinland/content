@@ -1,3 +1,5 @@
+const keywords = require("../keywords");
+
 module.exports = {
   speakers: [require("../speakers/sven-sauleau")],
   title: "Babel",
@@ -20,4 +22,5 @@ module.exports = {
       link: "https://ti.to/react-finland/2018/with/zcy5fb8uidi",
     },
   ],
+  keywords: require("../speakers/sven-sauleau").keywords,
 };

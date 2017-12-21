@@ -1,3 +1,5 @@
+const keywords = require("../keywords");
+
 module.exports = {
   speakers: [require("../speakers/sia-karamalegos")],
   title: "Universal React Apps Using Next.js",
@@ -22,4 +24,5 @@ module.exports = {
       link: "https://ti.to/react-finland/2018/with/m3kenzkowg0",
     },
   ],
+  keywords: require("../speakers/sia-karamalegos").keywords,
 };

@@ -1,3 +1,5 @@
+const keywords = require("../keywords");
+
 module.exports = {
   speakers: [
     require("../speakers/patrick-stapfer"),
@@ -40,4 +42,5 @@ In the end, ambitious attendees will be able to integrate Reason React component
       link: "https://ti.to/react-finland/2018/with/766bgaavf-q",
     },
   ],
+  keywords: require("../speakers/patrick-stapfer").keywords,
 };

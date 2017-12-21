@@ -1,3 +1,5 @@
+const keywords = require("../keywords");
+
 module.exports = {
   speakers: [require("../speakers/sara-vieira")],
   title: "Testing React",
@@ -18,4 +20,5 @@ module.exports = {
       link: "https://ti.to/react-finland/2018/with/wizz0uhlngq",
     },
   ],
+  keywords: require("../speakers/sara-vieira").keywords,
 };

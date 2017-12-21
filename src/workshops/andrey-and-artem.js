@@ -1,3 +1,5 @@
+const keywords = require("../keywords");
+
 module.exports = {
   speakers: [
     require("../speakers/andrey-okonetchnikov"),
@@ -33,5 +35,11 @@ module.exports = {
       ...require("../tickets").eveningWorkshop[1],
       link: "https://ti.to/react-finland/2018/with/vll01sed0uq",
     },
+  ],
+  keywords: [
+    ...new Set(
+      require("../speakers/andrey-okonetchnikov").keywords,
+      require("../speakers/artem-sapegin").keywords
+    ),
   ],
 };

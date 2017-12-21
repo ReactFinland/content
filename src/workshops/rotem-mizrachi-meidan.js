@@ -1,3 +1,5 @@
+const keywords = require("../keywords");
+
 module.exports = {
   speakers: [require("../speakers/rotem-mizrachi-meidan")],
   title: "Detox",
@@ -14,4 +16,5 @@ module.exports = {
       link: "https://ti.to/react-finland/2018/with/ldpzefjkijm",
     },
   ],
+  keywords: require("../speakers/rotem-mizrachi-meidan").keywords,
 };

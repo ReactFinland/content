@@ -1,3 +1,5 @@
+const keywords = require("../keywords");
+
 module.exports = {
   speakers: [require("../speakers/juho-vepsalainen")],
   title: "Webpack - The Good Parts",
@@ -30,4 +32,5 @@ The topics covered include:
       link: "https://ti.to/react-finland/2018/with/xaizfkm1nbe",
     },
   ],
+  keywords: require("../speakers/juho-vepsalainen").keywords,
 };
