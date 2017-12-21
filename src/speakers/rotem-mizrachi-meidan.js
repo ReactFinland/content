@@ -1,3 +1,5 @@
+const keywords = require("../keywords");
+
 module.exports = {
   name: "Rotem Mizrachi-Meidan",
   about:
@@ -7,4 +9,11 @@ module.exports = {
   twitter: "rotemmiz",
   github: "rotemmiz",
   linkedin: "rotem-mizrachi-meidan-a2306a14",
+  keywords: [
+    keywords.DETOX,
+    keywords.REACT,
+    keywords.REACT_NATIVE,
+    keywords.TESTING,
+    keywords.TOOLING,
+  ],
 };

@@ -1,3 +1,5 @@
+const keywords = require("../keywords");
+
 module.exports = {
   name: "Shay Keinan",
   about:
@@ -7,4 +9,5 @@ module.exports = {
   twitter: "Shay_Keinan",
   github: "crazypixel",
   linkedin: "shay-keinan",
+  keywords: [keywords.REACT, keywords.REACT_VR],
 };

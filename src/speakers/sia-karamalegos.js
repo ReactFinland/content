@@ -1,3 +1,5 @@
+const keywords = require("../keywords");
+
 module.exports = {
   name: "Sia Karamalegos",
   about:
@@ -6,4 +8,5 @@ module.exports = {
   homepage: "https://siakaramalegos.github.io/",
   twitter: "thegreengreek",
   github: "siakaramalegos",
+  keywords: [keywords.NEXT_JS, keywords.REACT, keywords.UNIVERSAL_REACT],
 };

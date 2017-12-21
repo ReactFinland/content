@@ -1,3 +1,5 @@
+const keywords = require("../keywords");
+
 module.exports = {
   name: "Artem Sapegin",
   about:
@@ -7,4 +9,11 @@ module.exports = {
   twitter: "iamsapegin",
   github: "sapegin",
   linkedin: "artemsapegin",
+  keywords: [
+    keywords.REACT,
+    keywords.STYLING,
+    keywords.STYLEGUIDIST,
+    keywords.STYLE_GUIDES,
+    keywords.TOOLING,
+  ],
 };

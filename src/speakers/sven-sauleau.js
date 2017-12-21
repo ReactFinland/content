@@ -1,3 +1,5 @@
+const keywords = require("../keywords");
+
 module.exports = {
   name: "Sven Sauleau",
   about:
@@ -6,4 +8,5 @@ module.exports = {
   homepage: "http://www.xtuc.fr/",
   twitter: "svensauleau",
   github: "xtuc",
+  keywords: [keywords.BABEL, keywords.TOOLING],
 };

@@ -1,3 +1,5 @@
+const keywords = require("../keywords");
+
 module.exports = {
   name: "Sara Vieira",
   about:
@@ -7,4 +9,5 @@ module.exports = {
   twitter: "NikkitaFTW",
   github: "SaraVieira",
   linkedin: "saravieira1",
+  keywords: [keywords.REACT, keywords.TESTING],
 };

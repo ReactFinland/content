@@ -1,3 +1,5 @@
+const keywords = require("../keywords");
+
 module.exports = {
   name: "Michel Weststrate",
   about:
@@ -7,4 +9,10 @@ module.exports = {
   twitter: "mweststrate",
   github: "mweststrate",
   linkedin: "michel-weststrate-3558463",
+  keywords: [
+    keywords.MOBX,
+    keywords.MOBX_STATE_TREE,
+    keywords.REACT,
+    keywords.STATE_MANAGEMENT,
+  ],
 };

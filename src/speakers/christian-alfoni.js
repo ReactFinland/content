@@ -1,3 +1,5 @@
+const keywords = require("../keywords");
+
 module.exports = {
   name: "Christian Alfoni",
   about:
@@ -6,4 +8,5 @@ module.exports = {
   homepage: "http://www.christianalfoni.com/",
   twitter: "christianalfoni",
   github: "christianalfoni",
+  keywords: [keywords.CEREBRAL, keywords.REACT, keywords.STATE_MANAGEMENT],
 };

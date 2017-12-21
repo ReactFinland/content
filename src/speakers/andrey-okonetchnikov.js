@@ -1,3 +1,5 @@
+const keywords = require("../keywords");
+
 module.exports = {
   name: "Andrey Okonetchnikov",
   about:
@@ -6,4 +8,10 @@ module.exports = {
   homepage: "http://okonet.ru/",
   twitter: "okonetchnikov",
   github: "okonet",
+  keywords: [
+    keywords.REACT,
+    keywords.STYLING,
+    keywords.STYLE_GUIDES,
+    keywords.TOOLING,
+  ],
 };

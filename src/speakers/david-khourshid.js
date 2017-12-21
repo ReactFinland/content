@@ -1,3 +1,5 @@
+const keywords = require("../keywords");
+
 module.exports = {
   name: "David Khourshid",
   about:
@@ -7,4 +9,5 @@ module.exports = {
   twitter: "davidkpiano",
   github: "davidkpiano",
   linkedin: "david-khourshid-760055125",
+  keywords: [keywords.REACT, keywords.STATE_MANAGEMENT],
 };

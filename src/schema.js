@@ -28,7 +28,8 @@ const typeDefs = `
     homepage: String,
     twitter: String,
     github: String,
-    linkedin: String
+    linkedin: String,
+    keywords: [String]
   }
 
   type Schedule {

@@ -1,3 +1,5 @@
+const keywords = require("../keywords");
+
 module.exports = {
   name: "Juho Vepsäläinen",
   about:
@@ -7,4 +9,5 @@ module.exports = {
   twitter: "bebraw",
   github: "bebraw",
   linkedin: "juhovepsalainen",
+  keywords: [keywords.TOOLING, keywords.WEBPACK],
 };
