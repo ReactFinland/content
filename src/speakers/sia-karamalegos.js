@@ -8,5 +8,10 @@ module.exports = {
   homepage: "https://siakaramalegos.github.io/",
   twitter: "thegreengreek",
   github: "siakaramalegos",
-  keywords: [keywords.NEXT_JS, keywords.REACT, keywords.UNIVERSAL_REACT],
+  keywords: [
+    keywords.NEXT_JS,
+    keywords.REACT,
+    keywords.SSR,
+    keywords.UNIVERSAL_REACT,
+  ],
 };

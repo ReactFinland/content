@@ -9,6 +9,7 @@ module.exports = {
   REACT_NATIVE: "React Native",
   REACT_VR: "React VR",
   REASON: "Reason",
+  SSR: "Server side rendering",
   STATE_MANAGEMENT: "State management",
   STYLING: "Styling",
   STYLEGUIDIST: "Styleguidist",

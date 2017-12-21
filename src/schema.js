@@ -18,7 +18,8 @@ const typeDefs = `
     title: String,
     description: String,
     speakers: [Speaker],
-    tickets: [Ticket]
+    tickets: [Ticket],
+    keywords: [String]
   }
 
   type Speaker {
