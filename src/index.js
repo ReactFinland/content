@@ -4,6 +4,7 @@ module.exports = {
   coffeeBreaks: require("./coffee-breaks"),
   lunches: require("./lunches"),
   panels: require("./panels"),
+  partners: require("./partners"),
   presentations: require("./presentations"),
   schedules: require("./schedules"),
   speakers: require("./speakers"),

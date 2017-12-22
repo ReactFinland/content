@@ -7,6 +7,7 @@ const typeDefs = `
     coffeeBreaks: [[Session]],
     lunches: [[Session]],
     panels: [[Session]],
+    partners: [Partner],
     presentations: [Session],
     schedules: [Schedule],
     speakers: [Speaker],
@@ -20,6 +21,14 @@ const typeDefs = `
     speakers: [Speaker],
     tickets: [Ticket],
     keywords: [String]
+  }
+
+  type Partner {
+    name: String!,
+    homepage: String!,
+    facebook: String,
+    instagram: String,
+    twitter: String
   }
 
   type Speaker {
