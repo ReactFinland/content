@@ -6,12 +6,12 @@ const typeDefs = `
     breakfasts: [[Session]],
     coffeeBreaks: [[Session]],
     lunches: [[Session]],
-    organizers: [Person],
+    organizers: [Contact],
     panels: [[Session]],
-    partners: [Partner],
+    partners: [Contact],
     presentations: [Session],
     schedules: [Schedule],
-    speakers: [Person],
+    speakers: [Contact],
     tickets: [[Ticket]],
     workshops: [Session]
   }
@@ -19,28 +19,26 @@ const typeDefs = `
   type Session {
     title: String,
     description: String,
-    speakers: [Person],
+    speakers: [Contact],
     tickets: [Ticket],
     keywords: [String]
   }
 
-  type Partner {
-    name: String!,
-    homepage: String!,
-    facebook: String,
-    instagram: String,
-    twitter: String
-  }
-
-  type Person {
+  type Contact {
     name: String!,
     about: String!,
-    photo: String!,
+    image: String!,
+    social: Social,
+    keywords: [String]
+  }
+
+  type Social {
     homepage: String,
     twitter: String,
     github: String,
-    linkedin: String,
-    keywords: [String]
+    facebook: String,
+    instagram: String,
+    linkedin: String
   }
 
   type Schedule {

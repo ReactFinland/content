@@ -1,10 +1,12 @@
 module.exports = {
   name: "Samuli Hakoniemi",
   about: "",
-  photo: "samuli.jpg",
-  homepage: "",
-  twitter: "zvona",
-  github: "zvona",
-  linkedin: "",
+  image: "samuli.jpg",
+  social: {
+    homepage: "",
+    twitter: "zvona",
+    github: "zvona",
+    linkedin: "",
+  },
   keywords: [],
 };

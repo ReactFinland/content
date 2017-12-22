@@ -8,7 +8,10 @@ assert.equal(
 
 assert.equal(require("../").partners.agentConf.name, "Agent Conf");
 
-assert.equal(require("../").organizers.toniRistola.twitter, "toniristola");
+assert.equal(
+  require("../").organizers.toniRistola.social.twitter,
+  "toniristola"
+);
 
 assert.equal(
   require("../").presentations.varyaStepanova.type,

@@ -4,11 +4,13 @@ module.exports = {
   name: "Michel Weststrate",
   about:
     "Full-stack tech lead and open source evangelist at Mendix. Author of MobX and MobX-State-Tree. On a quest to make programming as natural as possible.",
-  photo: "michel.jpg",
-  homepage: "",
-  twitter: "mweststrate",
-  github: "mweststrate",
-  linkedin: "michel-weststrate-3558463",
+  image: "michel.jpg",
+  social: {
+    homepage: "",
+    twitter: "mweststrate",
+    github: "mweststrate",
+    linkedin: "michel-weststrate-3558463",
+  },
   keywords: [
     keywords.MOBX,
     keywords.MOBX_STATE_TREE,

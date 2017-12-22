@@ -1,7 +1,11 @@
 module.exports = {
   name: "Agent Conf",
-  homepage: "https://www.agent.sh/",
-  facebook: "agentsh",
-  instagram: "teamagent",
-  twitter: "agentconf",
+  about: "The international event for coding inspiration",
+  image: "agent.png",
+  social: {
+    homepage: "https://www.agent.sh/",
+    facebook: "agentsh",
+    instagram: "teamagent",
+    twitter: "agentconf",
+  },
 };
