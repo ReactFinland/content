@@ -3,6 +3,7 @@ module.exports = {
   breakfasts: require("./breakfasts"),
   coffeeBreaks: require("./coffee-breaks"),
   lunches: require("./lunches"),
+  organizers: require("./organizers"),
   panels: require("./panels"),
   partners: require("./partners"),
   presentations: require("./presentations"),

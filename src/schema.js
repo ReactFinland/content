@@ -6,11 +6,12 @@ const typeDefs = `
     breakfasts: [[Session]],
     coffeeBreaks: [[Session]],
     lunches: [[Session]],
+    organizers: [Person],
     panels: [[Session]],
     partners: [Partner],
     presentations: [Session],
     schedules: [Schedule],
-    speakers: [Speaker],
+    speakers: [Person],
     tickets: [[Ticket]],
     workshops: [Session]
   }
@@ -18,7 +19,7 @@ const typeDefs = `
   type Session {
     title: String,
     description: String,
-    speakers: [Speaker],
+    speakers: [Person],
     tickets: [Ticket],
     keywords: [String]
   }
@@ -31,7 +32,7 @@ const typeDefs = `
     twitter: String
   }
 
-  type Speaker {
+  type Person {
     name: String!,
     about: String!,
     photo: String!,
