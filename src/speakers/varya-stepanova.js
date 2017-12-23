@@ -11,5 +11,9 @@ module.exports = {
     github: "varya",
     linkedin: "varyastepanova",
   },
+  location: {
+    country: "Finland",
+    city: "Helsinki",
+  },
   keywords: [keywords.REACT, keywords.TOOLING],
 };

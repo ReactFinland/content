@@ -10,5 +10,8 @@ module.exports = {
     twitter: "christianalfoni",
     github: "christianalfoni",
   },
+  location: {
+    country: "Norway",
+  },
   keywords: [keywords.CEREBRAL, keywords.REACT, keywords.STATE_MANAGEMENT],
 };

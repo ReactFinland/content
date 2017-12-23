@@ -10,5 +10,8 @@ module.exports = {
     twitter: "svensauleau",
     github: "xtuc",
   },
+  location: {
+    country: "France",
+  },
   keywords: [keywords.BABEL, keywords.TOOLING],
 };

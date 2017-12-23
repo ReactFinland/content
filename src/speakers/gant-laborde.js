@@ -11,5 +11,8 @@ module.exports = {
     github: "GantMan",
     linkedin: "gant-laborde",
   },
+  location: {
+    country: "USA",
+  },
   keywords: [keywords.REACT, keywords.REACT_NATIVE],
 };

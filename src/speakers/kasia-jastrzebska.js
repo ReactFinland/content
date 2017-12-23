@@ -11,5 +11,8 @@ module.exports = {
     github: "kajas90",
     linkedin: "kasia-jastrzębska-8369a664",
   },
+  location: {
+    country: "Poland",
+  },
   keywords: [keywords.REACT, keywords.SSR, keywords.STYLING],
 };

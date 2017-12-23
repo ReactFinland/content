@@ -11,6 +11,10 @@ module.exports = {
     github: "rotemmiz",
     linkedin: "rotem-mizrachi-meidan-a2306a14",
   },
+  location: {
+    country: "Israel",
+    city: "Tel Aviv",
+  },
   keywords: [
     keywords.DETOX,
     keywords.REACT,

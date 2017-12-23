@@ -11,5 +11,9 @@ module.exports = {
     github: "bebraw",
     linkedin: "juhovepsalainen",
   },
+  location: {
+    country: "Austria",
+    city: "Vienna",
+  },
   keywords: [keywords.TOOLING, keywords.WEBPACK],
 };

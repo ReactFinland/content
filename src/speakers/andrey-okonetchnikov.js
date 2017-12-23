@@ -10,6 +10,10 @@ module.exports = {
     twitter: "okonetchnikov",
     github: "okonet",
   },
+  location: {
+    country: "Austria",
+    city: "Vienna",
+  },
   keywords: [
     keywords.REACT,
     keywords.STYLING,

@@ -8,5 +8,8 @@ module.exports = {
     github: "zvona",
     linkedin: "",
   },
+  location: {
+    country: "Finland",
+  },
   keywords: [],
 };

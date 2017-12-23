@@ -11,5 +11,8 @@ module.exports = {
     github: "SaraVieira",
     linkedin: "saravieira1",
   },
+  location: {
+    country: "Portugal",
+  },
   keywords: [keywords.REACT, keywords.TESTING],
 };

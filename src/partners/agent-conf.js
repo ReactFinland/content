@@ -8,4 +8,8 @@ module.exports = {
     instagram: "teamagent",
     twitter: "agentconf",
   },
+  location: {
+    country: "Austria",
+    city: "Dornbirn",
+  },
 };

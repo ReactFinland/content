@@ -8,5 +8,8 @@ module.exports = {
     github: "akx",
     linkedin: "",
   },
+  location: {
+    country: "Finland",
+  },
   keywords: [],
 };

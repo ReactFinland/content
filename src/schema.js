@@ -29,6 +29,7 @@ const typeDefs = `
     about: String!,
     image: String!,
     social: Social,
+    location: Location,
     keywords: [String]
   }
 
@@ -39,6 +40,11 @@ const typeDefs = `
     facebook: String,
     instagram: String,
     linkedin: String
+  }
+
+  type Location {
+    country: String,
+    city: String
   }
 
   type Schedule {

@@ -10,6 +10,9 @@ module.exports = {
     twitter: "thegreengreek",
     github: "siakaramalegos",
   },
+  location: {
+    country: "USA",
+  },
   keywords: [
     keywords.NEXT_JS,
     keywords.REACT,

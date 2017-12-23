@@ -11,5 +11,8 @@ module.exports = {
     github: "kenwheeler",
     linkedin: "kennywheeler",
   },
+  location: {
+    country: "USA",
+  },
   keywords: [keywords.REACT],
 };

@@ -11,5 +11,9 @@ module.exports = {
     github: "ryyppy",
     linkedin: "patrick-stapfer-5ba205a4",
   },
+  location: {
+    country: "Austria",
+    city: "Vienna",
+  },
   keywords: [keywords.REACT, keywords.REASON],
 };

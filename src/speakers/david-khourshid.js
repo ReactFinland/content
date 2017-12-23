@@ -11,5 +11,8 @@ module.exports = {
     github: "davidkpiano",
     linkedin: "david-khourshid-760055125",
   },
+  location: {
+    country: "USA",
+  },
   keywords: [keywords.REACT, keywords.STATE_MANAGEMENT],
 };

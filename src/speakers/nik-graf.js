@@ -11,5 +11,9 @@ module.exports = {
     github: "nikgraf",
     linkedin: "nikolausgraf",
   },
+  location: {
+    country: "Austria",
+    city: "Vienna",
+  },
   keywords: [keywords.REACT, keywords.REACT_VR],
 };

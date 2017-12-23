@@ -11,6 +11,9 @@ module.exports = {
     github: "mweststrate",
     linkedin: "michel-weststrate-3558463",
   },
+  location: {
+    country: "Netherlands",
+  },
   keywords: [
     keywords.MOBX,
     keywords.MOBX_STATE_TREE,

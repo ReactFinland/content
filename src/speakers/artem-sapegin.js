@@ -11,6 +11,10 @@ module.exports = {
     github: "sapegin",
     linkedin: "artemsapegin",
   },
+  location: {
+    country: "Germany",
+    city: "Berlin",
+  },
   keywords: [
     keywords.REACT,
     keywords.STYLING,

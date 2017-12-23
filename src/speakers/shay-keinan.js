@@ -11,5 +11,9 @@ module.exports = {
     github: "crazypixel",
     linkedin: "shay-keinan",
   },
+  location: {
+    country: "Israel",
+    city: "Tel Aviv",
+  },
   keywords: [keywords.REACT, keywords.REACT_VR],
 };
