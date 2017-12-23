@@ -12,6 +12,7 @@
   "license": "MIT",
   "devDependencies": {
     "graphql": "^0.12.3",
+    "graphql-tools": "^2.14.1",
     "prettier": "^1.9.1"
   },
   "repository": {
@@ -20,8 +21,5 @@
   },
   "bugs": {
     "url": "https://github.com/ReactFinland/content-2018/issues"
-  },
-  "dependencies": {
-    "graphql-tools": "^2.14.1"
   }
 }

@@ -1,7 +1,4 @@
-const { makeExecutableSchema } = require("graphql-tools");
-const content = require("./");
-
-const typeDefs = `
+module.exports = `
   type Query {
     breakfasts: [[Session]],
     coffeeBreaks: [[Session]],
@@ -65,20 +62,3 @@ const typeDefs = `
     link: String
   }
 `;
-
-function generateQueries() {
-  const ret = {};
-
-  Object.keys(content).forEach(k => {
-    ret[k] = () => Object.values(content[k]);
-  });
-
-  return ret;
-}
-
-module.exports = makeExecutableSchema({
-  typeDefs,
-  resolvers: {
-    Query: generateQueries(),
-  },
-});

@@ -1,30 +1,47 @@
 const assert = require("assert");
 const graphql = require("graphql").graphql;
+const { makeExecutableSchema } = require("graphql-tools");
+const { schema, content } = require("../");
 
 assert.equal(
-  require("../").workshops.andreyAndArtem.speakers[0].name,
+  content.workshops.andreyAndArtem.speakers[0].name,
   "Andrey Okonetchnikov"
 );
 
-assert.equal(require("../").partners.agentConf.name, "Agent Conf");
+assert.equal(content.partners.agentConf.name, "Agent Conf");
+
+assert.equal(content.organizers.toniRistola.social.twitter, "toniristola");
 
 assert.equal(
-  require("../").organizers.toniRistola.social.twitter,
-  "toniristola"
+  content.presentations.varyaStepanova.type,
+  schema.enums.LIGHTNING_TALK
 );
 
-assert.equal(
-  require("../").presentations.varyaStepanova.type,
-  require("../src/enums").LIGHTNING_TALK
-);
-
-graphql(require("../src/schema"), "{ speakers { name } }")
+graphql(
+  makeExecutableSchema({
+    typeDefs: schema.typeDefs,
+    resolvers: {
+      Query: generateQueries(),
+    },
+  }),
+  "{ speakers { name } }"
+)
   .then(({ data }) => {
     assert.deepEqual(
       data.speakers.map(speaker => speaker.name),
-      Object.values(require("../").speakers).map(speaker => speaker.name)
+      Object.values(content.speakers).map(speaker => speaker.name)
     );
   })
   .catch(e => {
     throw new Error(e);
   });
+
+function generateQueries() {
+  const ret = {};
+
+  Object.keys(content).forEach(k => {
+    ret[k] = () => Object.values(content[k]);
+  });
+
+  return ret;
+}
