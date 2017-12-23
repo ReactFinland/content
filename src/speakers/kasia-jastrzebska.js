@@ -12,7 +12,10 @@ module.exports = {
     linkedin: "kasia-jastrzębska-8369a664",
   },
   location: {
-    country: "Poland",
+    country: {
+      name: "Poland",
+      code: "PL",
+    },
   },
   keywords: [keywords.REACT, keywords.SSR, keywords.STYLING],
 };

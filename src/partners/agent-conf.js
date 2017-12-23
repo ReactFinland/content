@@ -9,7 +9,10 @@ module.exports = {
     twitter: "agentconf",
   },
   location: {
-    country: "Austria",
+    country: {
+      name: "Austria",
+      code: "AT",
+    },
     city: "Dornbirn",
   },
 };

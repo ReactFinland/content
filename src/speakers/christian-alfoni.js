@@ -11,7 +11,10 @@ module.exports = {
     github: "christianalfoni",
   },
   location: {
-    country: "Norway",
+    country: {
+      name: "Norway",
+      code: "NO",
+    },
   },
   keywords: [keywords.CEREBRAL, keywords.REACT, keywords.STATE_MANAGEMENT],
 };

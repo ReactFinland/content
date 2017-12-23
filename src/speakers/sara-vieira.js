@@ -12,7 +12,10 @@ module.exports = {
     linkedin: "saravieira1",
   },
   location: {
-    country: "Portugal",
+    country: {
+      name: "Portugal",
+      code: "PT",
+    },
   },
   keywords: [keywords.REACT, keywords.TESTING],
 };

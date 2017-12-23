@@ -40,8 +40,13 @@ module.exports = `
   }
 
   type Location {
-    country: String,
+    country: Country,
     city: String
+  }
+
+  type Country {
+    name: String,
+    code: String
   }
 
   type Schedule {

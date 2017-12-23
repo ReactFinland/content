@@ -11,7 +11,10 @@ module.exports = {
     github: "okonet",
   },
   location: {
-    country: "Austria",
+    country: {
+      name: "Austria",
+      code: "AT",
+    },
     city: "Vienna",
   },
   keywords: [

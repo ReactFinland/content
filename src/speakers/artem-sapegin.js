@@ -12,7 +12,10 @@ module.exports = {
     linkedin: "artemsapegin",
   },
   location: {
-    country: "Germany",
+    country: {
+      name: "Germany",
+      code: "DE",
+    },
     city: "Berlin",
   },
   keywords: [

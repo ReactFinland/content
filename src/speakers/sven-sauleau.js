@@ -11,7 +11,10 @@ module.exports = {
     github: "xtuc",
   },
   location: {
-    country: "France",
+    country: {
+      name: "France",
+      code: "FR",
+    },
   },
   keywords: [keywords.BABEL, keywords.TOOLING],
 };

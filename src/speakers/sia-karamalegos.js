@@ -11,7 +11,10 @@ module.exports = {
     github: "siakaramalegos",
   },
   location: {
-    country: "USA",
+    country: {
+      name: "United States",
+      code: "US",
+    },
   },
   keywords: [
     keywords.NEXT_JS,

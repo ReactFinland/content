@@ -12,7 +12,10 @@ module.exports = {
     linkedin: "david-khourshid-760055125",
   },
   location: {
-    country: "USA",
+    country: {
+      name: "United States",
+      code: "US",
+    },
   },
   keywords: [keywords.REACT, keywords.STATE_MANAGEMENT],
 };

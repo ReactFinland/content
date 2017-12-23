@@ -12,7 +12,10 @@ module.exports = {
     linkedin: "varyastepanova",
   },
   location: {
-    country: "Finland",
+    country: {
+      name: "Finland",
+      code: "FI",
+    },
     city: "Helsinki",
   },
   keywords: [keywords.REACT, keywords.TOOLING],

@@ -12,7 +12,10 @@ module.exports = {
     linkedin: "rotem-mizrachi-meidan-a2306a14",
   },
   location: {
-    country: "Israel",
+    country: {
+      name: "Israel",
+      code: "IL",
+    },
     city: "Tel Aviv",
   },
   keywords: [

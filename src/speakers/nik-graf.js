@@ -12,7 +12,10 @@ module.exports = {
     linkedin: "nikolausgraf",
   },
   location: {
-    country: "Austria",
+    country: {
+      name: "Austria",
+      code: "AT",
+    },
     city: "Vienna",
   },
   keywords: [keywords.REACT, keywords.REACT_VR],

@@ -12,7 +12,10 @@ module.exports = {
     linkedin: "gant-laborde",
   },
   location: {
-    country: "USA",
+    country: {
+      name: "United States",
+      code: "US",
+    },
   },
   keywords: [keywords.REACT, keywords.REACT_NATIVE],
 };

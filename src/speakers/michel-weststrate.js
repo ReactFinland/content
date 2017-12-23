@@ -12,7 +12,10 @@ module.exports = {
     linkedin: "michel-weststrate-3558463",
   },
   location: {
-    country: "Netherlands",
+    country: {
+      name: "Netherlands",
+      code: "NL",
+    },
   },
   keywords: [
     keywords.MOBX,

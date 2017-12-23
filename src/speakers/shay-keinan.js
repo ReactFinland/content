@@ -12,7 +12,10 @@ module.exports = {
     linkedin: "shay-keinan",
   },
   location: {
-    country: "Israel",
+    country: {
+      name: "Israel",
+      code: "IL",
+    },
     city: "Tel Aviv",
   },
   keywords: [keywords.REACT, keywords.REACT_VR],

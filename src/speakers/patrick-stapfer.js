@@ -12,7 +12,10 @@ module.exports = {
     linkedin: "patrick-stapfer-5ba205a4",
   },
   location: {
-    country: "Austria",
+    country: {
+      name: "Austria",
+      code: "AT",
+    },
     city: "Vienna",
   },
   keywords: [keywords.REACT, keywords.REASON],

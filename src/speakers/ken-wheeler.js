@@ -12,7 +12,10 @@ module.exports = {
     linkedin: "kennywheeler",
   },
   location: {
-    country: "USA",
+    country: {
+      name: "United States",
+      code: "US",
+    },
   },
   keywords: [keywords.REACT],
 };

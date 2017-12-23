@@ -10,7 +10,10 @@ module.exports = {
     linkedin: "",
   },
   location: {
-    country: "Finland",
+    country: {
+      name: "Finland",
+      code: "FI",
+    },
   },
   keywords: [],
 };
