@@ -16,6 +16,7 @@ module.exports = {
       name: "Netherlands",
       code: "NL",
     },
+    city: "",
   },
   keywords: [
     keywords.MOBX,

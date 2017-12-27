@@ -16,6 +16,7 @@ module.exports = {
       name: "Portugal",
       code: "PT",
     },
+    city: "",
   },
   keywords: [keywords.REACT, keywords.TESTING],
 };

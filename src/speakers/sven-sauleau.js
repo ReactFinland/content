@@ -15,6 +15,7 @@ module.exports = {
       name: "France",
       code: "FR",
     },
+    city: "",
   },
   keywords: [keywords.BABEL, keywords.TOOLING],
 };
