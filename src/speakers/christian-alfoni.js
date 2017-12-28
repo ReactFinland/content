@@ -15,7 +15,7 @@ module.exports = {
       name: "Norway",
       code: "NO",
     },
-    city: "",
+    city: "Trondheim",
   },
   keywords: [keywords.CEREBRAL, keywords.REACT, keywords.STATE_MANAGEMENT],
 };
