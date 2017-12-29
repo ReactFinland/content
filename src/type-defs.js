@@ -36,7 +36,8 @@ module.exports = `
     github: String,
     facebook: String,
     instagram: String,
-    linkedin: String
+    linkedin: String,
+    youtube: String
   }
 
   type Location {
