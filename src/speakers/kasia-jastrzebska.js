@@ -16,7 +16,7 @@ module.exports = {
       name: "Poland",
       code: "PL",
     },
-    city: "",
+    city: "Gdansk",
   },
   keywords: [keywords.REACT, keywords.SSR, keywords.STYLING],
 };
