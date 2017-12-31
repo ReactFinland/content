@@ -16,7 +16,7 @@ module.exports = {
       name: "United States",
       code: "US",
     },
-    city: "",
+    city: "Orlando",
   },
   keywords: [keywords.REACT, keywords.STATE_MANAGEMENT],
 };
