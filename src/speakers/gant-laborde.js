@@ -16,7 +16,7 @@ module.exports = {
       name: "United States",
       code: "US",
     },
-    city: "",
+    city: "New Orleans",
   },
   keywords: [keywords.REACT, keywords.REACT_NATIVE],
 };
