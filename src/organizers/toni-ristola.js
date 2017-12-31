@@ -1,12 +1,12 @@
 module.exports = {
   name: "Toni Ristola",
-  about: "",
+  about: "Toni Ristola works on the app and is the vice-chairman of the association.",
   image: "toni.png",
   social: {
     homepage: "",
     twitter: "toniristola",
-    github: "",
-    linkedin: "",
+    github: "tristola",
+    linkedin: "toniristola",
   },
   location: {
     country: {
