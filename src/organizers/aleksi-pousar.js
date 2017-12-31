@@ -4,10 +4,10 @@ module.exports = {
     "Aleksi Pousar works on the app and is the treasurer of the association.",
   image: "aleksi.jpg",
   social: {
-    homepage: "",
+    homepage: "https://aleksipousar.fi",
     twitter: "AleksiPousar",
-    github: "",
-    linkedin: "",
+    github: "stoneman1",
+    linkedin: "aleksipousar",
   },
   location: {
     country: {
