@@ -6,6 +6,7 @@ module.exports = {
   kasiaJastrzebska: require("./kasia-jastrzebska"),
   kenWheeler: require("./ken-wheeler"),
   nikGraf: require("./nik-graf"),
+  michelWeststrate: require("./michel-weststrate"),
   patrickStapfer: require("./patrick-stapfer"),
   rotemMizrachiMeidan: require("./rotem-mizrachi-meidan"),
   saraVieira: require("./sara-vieira"),
