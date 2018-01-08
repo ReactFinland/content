@@ -3,7 +3,7 @@ const keywords = require("../keywords");
 module.exports = {
   name: "Michel Weststrate",
   about:
-    "Full-stack tech lead and open source evangelist at Mendix. Author of MobX and MobX-State-Tree. On a quest to make programming as natural as possible.",
+    "Full-stack tech lead and open source evangelist at Mendix. Author of MobX, MobX-State-Tree and Immer. On a quest to make programming as natural as possible.",
   image: "michel.jpg",
   social: {
     homepage: "",
@@ -19,6 +19,7 @@ module.exports = {
     city: "Amsterdam",
   },
   keywords: [
+    keywords.IMMER,
     keywords.MOBX,
     keywords.MOBX_STATE_TREE,
     keywords.REACT,

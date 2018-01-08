@@ -2,6 +2,7 @@ module.exports = {
   BABEL: "Babel",
   CEREBRAL: "Cerebral",
   DETOX: "Detox",
+  IMMER: "Immer",
   NEXT_JS: "Next.js",
   MOBX: "MobX",
   MOBX_STATE_TREE: "mobx-state-tree",
