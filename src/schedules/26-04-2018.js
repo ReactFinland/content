@@ -23,7 +23,7 @@ module.exports = {
       end: "11:30",
       sessions: [
         {
-          title: "Four lightning talks",
+          title: "Lightning talks",
         },
       ],
     },
@@ -67,7 +67,7 @@ module.exports = {
       end: "17:30",
       sessions: [
         {
-          title: "Four lightning talks",
+          title: "Lightning talks",
         },
       ],
     },

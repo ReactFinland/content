@@ -23,7 +23,7 @@ module.exports = {
       end: "11:30",
       sessions: [
         {
-          title: "Four lightning talks",
+          title: "Lightning talks",
         },
         require("../presentations/michel-weststrate"),
         require("../presentations/varya-stepanova"),
@@ -69,7 +69,7 @@ module.exports = {
       end: "17:30",
       sessions: [
         {
-          title: "Four lightning talks",
+          title: "Lightning talks",
         },
       ],
     },
