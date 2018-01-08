@@ -25,6 +25,7 @@ module.exports = {
         {
           title: "Four lightning talks",
         },
+        require("../presentations/michel-weststrate"),
         require("../presentations/varya-stepanova"),
       ],
     },
