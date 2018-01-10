@@ -35,6 +35,7 @@ module.exports = `
     twitter: String,
     github: String,
     facebook: String,
+    medium: String,
     instagram: String,
     linkedin: String,
     youtube: String
