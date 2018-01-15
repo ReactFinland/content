@@ -5,6 +5,7 @@
   "main": "./src",
   "scripts": {
     "format": "prettier ./src/**/{*.js,*.json} --write",
+    "publish": "git push --follow-tags && npm publish",
     "test": "node tests/smoke.js"
   },
   "keywords": [],
