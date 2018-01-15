@@ -8,6 +8,7 @@ module.exports = {
   social: {
     homepage: "https://survivejs.com/",
     twitter: "bebraw",
+    medium: "@bebraw",
     github: "bebraw",
     linkedin: "juhovepsalainen",
   },
