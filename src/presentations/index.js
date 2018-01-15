@@ -7,6 +7,7 @@ module.exports = {
   kenWheeler: require("./ken-wheeler"),
   nikGraf: require("./nik-graf"),
   michelWeststrate: require("./michel-weststrate"),
+  patrickHund: require("./patrick-hund"),
   patrickStapfer: require("./patrick-stapfer"),
   rotemMizrachiMeidan: require("./rotem-mizrachi-meidan"),
   saraVieira: require("./sara-vieira"),
