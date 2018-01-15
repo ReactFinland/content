@@ -1,5 +1,5 @@
 module.exports = {
-  name: "Halfstack 2018",
+  name: "Halfstack",
   about:
     "HalfStack is a one-day, single track, fun JS conf in a Shoreditch pub",
   image: "halfstack.svg",
