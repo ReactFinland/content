@@ -12,11 +12,11 @@ module.exports = {
   By the end, we will implement all of this in continuous development with GitHub and Travis so you can leave with the exact idea on how to go about implementing extensive tests in your app without shedding a single tear.`,
   tickets: [
     {
-      ...require("../tickets").morningWorkshop[0],
+      ...require("../tickets/morning-workshop")[0],
       link: "https://ti.to/react-finland/2018/with/58ief-l-vjq",
     },
     {
-      ...require("../tickets").morningWorkshop[1],
+      ...require("../tickets/morning-workshop")[1],
       link: "https://ti.to/react-finland/2018/with/wizz0uhlngq",
     },
   ],

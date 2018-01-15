@@ -1,12 +1,12 @@
-module.exports = {
-  andreyAndArtem: require("./andrey-and-artem"),
-  davidKhourshid: require("./david-khourshid"),
-  gantLaborde: require("./gant-laborde"),
-  juhoVepsalainen: require("./juho-vepsalainen"),
-  michelWeststrate: require("./michel-weststrate"),
-  patrickAndNik: require("./patrick-and-nik"),
-  rotemMizrachiMeidan: require("./rotem-mizrachi-meidan"),
-  saraVieira: require("./sara-vieira"),
-  siaKaramalegos: require("./sia-karamalegos"),
-  svenSauleau: require("./sven-sauleau"),
-};
+module.exports = [
+  require("./andrey-and-artem"),
+  require("./david-khourshid"),
+  require("./gant-laborde"),
+  require("./juho-vepsalainen"),
+  require("./michel-weststrate"),
+  require("./patrick-and-nik"),
+  require("./rotem-mizrachi-meidan"),
+  require("./sara-vieira"),
+  require("./sia-karamalegos"),
+  require("./sven-sauleau"),
+];

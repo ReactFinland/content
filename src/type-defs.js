@@ -1,19 +1,20 @@
 module.exports = `
   type Query {
-    breakfasts: [[Session]],
-    coffeeBreaks: [[Session]],
-    lunches: [[Session]],
+    breakfasts: [Session],
+    coffeeBreaks: [Session],
+    lunches: [Session],
     organizers: [Contact],
-    panels: [[Session]],
+    panels: [Session],
     partners: [Contact],
     presentations: [Session],
     schedules: [Schedule],
     speakers: [Contact],
-    tickets: [[Ticket]],
+    tickets: [Ticket],
     workshops: [Session]
   }
 
   type Session {
+    date: String,
     title: String,
     description: String,
     speakers: [Contact],
@@ -52,7 +53,7 @@ module.exports = `
   }
 
   type Schedule {
-    day: String,
+    date: String,
     intervals: [Interval]
   }
 

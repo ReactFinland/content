@@ -14,11 +14,11 @@ module.exports = {
 7. Writing your own middleware`,
   tickets: [
     {
-      ...require("../tickets").dayWorkshop[0],
+      ...require("../tickets/day-workshop")[0],
       link: "https://ti.to/react-finland/2018/with/xqzmkr5xxk8",
     },
     {
-      ...require("../tickets").dayWorkshop[1],
+      ...require("../tickets/day-workshop")[1],
       link: "https://ti.to/react-finland/2018/with/uv5zrkj3ybu",
     },
   ],

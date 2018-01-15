@@ -4,16 +4,24 @@ const { makeExecutableSchema } = require("graphql-tools");
 const { schema, content } = require("../");
 
 assert.equal(
-  content.workshops.andreyAndArtem.speakers[0].name,
+  content.workshops.find(o => o.title === "Styleguide-driven Development")
+    .speakers[0].name,
   "Andrey Okonetchnikov"
 );
 
-assert.equal(content.partners.agentConf.name, "Agent Conf");
-
-assert.equal(content.organizers.toniRistola.social.twitter, "toniristola");
+assert(content.partners.find(o => o.name === "Agent Conf"));
 
 assert.equal(
-  content.presentations.varyaStepanova.type,
+  content.organizers.find(o => o.name === "Toni Ristola").social.twitter,
+  "toniristola"
+);
+
+assert.equal(
+  content.presentations.find(
+    o =>
+      o.title ===
+      "How to use React, webpack and other buzzwords if there is no need"
+  ).type,
   schema.enums.LIGHTNING_TALK
 );
 

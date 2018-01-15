@@ -8,19 +8,19 @@ module.exports = {
   It’s easy to get lost in the lingo, so come learn what it all means and how to easily build universal React apps using the Next.js framework. We’ll walk through the concepts and use code examples to cement your understanding. You’ll get the most out of this session if you’re comfortable with React and ES6 syntax.`,
   tickets: [
     {
-      ...require("../tickets").morningWorkshop[0],
+      ...require("../tickets/morning-workshop")[0],
       link: "https://ti.to/react-finland/2018/with/kmogtpeshgs",
     },
     {
-      ...require("../tickets").morningWorkshop[1],
+      ...require("../tickets/morning-workshop")[1],
       link: "https://ti.to/react-finland/2018/with/y11c-klqvss",
     },
     {
-      ...require("../tickets").eveningWorkshop[0],
+      ...require("../tickets/evening-workshop")[0],
       link: "https://ti.to/react-finland/2018/with/c4g-t75rfog",
     },
     {
-      ...require("../tickets").eveningWorkshop[1],
+      ...require("../tickets/evening-workshop")[1],
       link: "https://ti.to/react-finland/2018/with/m3kenzkowg0",
     },
   ],

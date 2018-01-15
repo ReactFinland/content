@@ -1,12 +1,12 @@
-const day = "25-04-2018";
+const date = "25-04-2018";
 
 module.exports = {
-  day,
+  date,
   intervals: [
     {
       begin: "08:00",
       end: "09:00",
-      sessions: [require("../breakfasts")[day][0]],
+      sessions: [require("../breakfasts").find(o => o.date === date)],
     },
     {
       begin: "09:00",
@@ -33,12 +33,12 @@ module.exports = {
     {
       begin: "11:30",
       end: "12:30",
-      sessions: [require("../lunches")[day][0]],
+      sessions: [require("../lunches").find(o => o.date === date)],
     },
     {
       begin: "12:30",
       end: "13:00",
-      sessions: [require("../panels")[day][0]],
+      sessions: [require("../panels").filter(o => o.date === date)[0]],
     },
     {
       begin: "13:00",
@@ -63,7 +63,7 @@ module.exports = {
     {
       begin: "16:30",
       end: "17:00",
-      sessions: [require("../coffee-breaks")[day][0]],
+      sessions: [require("../coffee-breaks").find(o => o.date === date)],
     },
     {
       begin: "17:00",
@@ -77,7 +77,7 @@ module.exports = {
     {
       begin: "17:30",
       end: "18:00",
-      sessions: [require("../panels")[day][1]],
+      sessions: [require("../panels").filter(o => o.date === date)[1]],
     },
   ],
 };

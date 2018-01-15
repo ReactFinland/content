@@ -26,19 +26,19 @@ In more detail, the workshop will cover following topics:
 In the end, ambitious attendees will be able to integrate Reason React components in their existing React codebase without interrupting the existing development workflows.`,
   tickets: [
     {
-      ...require("../tickets").morningWorkshop[0],
+      ...require("../tickets/morning-workshop")[0],
       link: "https://ti.to/react-finland/2018/with/gjzhvxpdmuu",
     },
     {
-      ...require("../tickets").morningWorkshop[1],
+      ...require("../tickets/morning-workshop")[1],
       link: "https://ti.to/react-finland/2018/with/ype-9yteewo",
     },
     {
-      ...require("../tickets").eveningWorkshop[0],
+      ...require("../tickets/evening-workshop")[0],
       link: "https://ti.to/react-finland/2018/with/zcsd4ygn7jo",
     },
     {
-      ...require("../tickets").eveningWorkshop[1],
+      ...require("../tickets/evening-workshop")[1],
       link: "https://ti.to/react-finland/2018/with/766bgaavf-q",
     },
   ],

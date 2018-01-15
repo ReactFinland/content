@@ -16,19 +16,19 @@ The topics covered include:
 * Optimizing the build`,
   tickets: [
     {
-      ...require("../tickets").morningWorkshop[0],
+      ...require("../tickets/morning-workshop")[0],
       link: "https://ti.to/react-finland/2018/with/ed-qbtu5iyy",
     },
     {
-      ...require("../tickets").morningWorkshop[1],
+      ...require("../tickets/morning-workshop")[1],
       link: "https://ti.to/react-finland/2018/with/vwtcvheo28e",
     },
     {
-      ...require("../tickets").eveningWorkshop[0],
+      ...require("../tickets/evening-workshop")[0],
       link: "https://ti.to/react-finland/2018/with/hfbos2nheb0",
     },
     {
-      ...require("../tickets").eveningWorkshop[1],
+      ...require("../tickets/evening-workshop")[1],
       link: "https://ti.to/react-finland/2018/with/xaizfkm1nbe",
     },
   ],

@@ -1,6 +1,6 @@
-module.exports = {
-  agentConf: require("./agent-conf"),
-  reactDayBerlin: require("./react-day-berlin"),
-  survivejs: require("./survivejs"),
-  webexpo: require("./webexpo"),
-};
+module.exports = [
+  require("./agent-conf"),
+  require("./react-day-berlin"),
+  require("./survivejs"),
+  require("./webexpo"),
+];
