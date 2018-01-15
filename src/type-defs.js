@@ -9,7 +9,7 @@ module.exports = `
     presentations: [Session],
     schedules: [Schedule],
     speakers: [Contact],
-    tickets: [Ticket],
+    tickets: [[Ticket]],
     workshops: [Session]
   }
 
