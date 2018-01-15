@@ -1,6 +1,6 @@
 {
   "name": "@react-finland/content-2018",
-  "version": "9.0.9",
+  "version": "10.0.0",
   "description": "React Finland 2018 content",
   "main": "./src",
   "scripts": {
