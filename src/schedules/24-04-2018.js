@@ -1,7 +1,7 @@
-const date = "24-04-2018";
+const day = "24-04-2018";
 
 module.exports = {
-  date,
+  day,
   intervals: [
     {
       begin: "09:00",

@@ -14,7 +14,7 @@ module.exports = `
   }
 
   type Session {
-    date: String,
+    day: String,
     title: String,
     description: String,
     speakers: [Contact],
@@ -53,7 +53,7 @@ module.exports = `
   }
 
   type Schedule {
-    date: String,
+    day: String,
     intervals: [Interval]
   }
 
