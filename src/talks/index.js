@@ -13,5 +13,6 @@ module.exports = [
   require("./sara-vieira"),
   require("./shay-keinan"),
   require("./sia-karamalegos"),
+  require("./sven-sauleau"),
   require("./varya-stepanova"),
 ];

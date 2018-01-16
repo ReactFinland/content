@@ -72,6 +72,7 @@ module.exports = {
         {
           title: "Lightning talks",
         },
+        require("../talks/sven-sauleau"),
       ],
     },
     {
