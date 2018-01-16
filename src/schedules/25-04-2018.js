@@ -11,12 +11,12 @@ module.exports = {
     {
       begin: "09:00",
       end: "10:00",
-      sessions: [require("../presentations/ken-wheeler")],
+      sessions: [require("../talks/ken-wheeler")],
     },
     {
       begin: "10:00",
       end: "11:00",
-      sessions: [require("../presentations/kasia-jastrzebska")],
+      sessions: [require("../talks/kasia-jastrzebska")],
     },
     {
       begin: "11:00",
@@ -25,9 +25,9 @@ module.exports = {
         {
           title: "Lightning talks",
         },
-        require("../presentations/michel-weststrate"),
-        require("../presentations/patrick-hund"),
-        require("../presentations/varya-stepanova"),
+        require("../talks/michel-weststrate"),
+        require("../talks/patrick-hund"),
+        require("../talks/varya-stepanova"),
       ],
     },
     {
@@ -43,22 +43,22 @@ module.exports = {
     {
       begin: "13:00",
       end: "14:00",
-      sessions: [require("../presentations/christian-alfoni")],
+      sessions: [require("../talks/christian-alfoni")],
     },
     {
       begin: "14:00",
       end: "15:00",
-      sessions: [require("../presentations/sia-karamalegos")],
+      sessions: [require("../talks/sia-karamalegos")],
     },
     {
       begin: "15:00",
       end: "15:45",
-      sessions: [require("../presentations/sara-vieira")],
+      sessions: [require("../talks/sara-vieira")],
     },
     {
       begin: "15:45",
       end: "16:30",
-      sessions: [require("../presentations/rotem-mizrachi-meidan")],
+      sessions: [require("../talks/rotem-mizrachi-meidan")],
     },
     {
       begin: "16:30",

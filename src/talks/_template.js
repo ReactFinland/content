@@ -8,6 +8,6 @@ module.exports = {
   speakers: [speaker],
   title: "", // TODO: Talk title goes here
   description: "", // TODO: Talk description goes here. ES6 template and markdown work
-  type: enums.LIGHTNING_TALK, // TODO: Leave out for a normal length talk
+  type: enums.PRESENTATION, // TODO: change to enums.LIGHTNING_TALK for a short one
   keywords: speaker.keywords,
 };

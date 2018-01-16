@@ -17,7 +17,7 @@ assert.equal(
 );
 
 assert.equal(
-  content.presentations.find(
+  content.talks.find(
     o =>
       o.title ===
       "How to use React, webpack and other buzzwords if there is no need"

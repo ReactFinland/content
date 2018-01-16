@@ -11,12 +11,12 @@ module.exports = {
     {
       begin: "09:00",
       end: "10:00",
-      sessions: [require("../presentations/jani-evakallio")],
+      sessions: [require("../talks/jani-evakallio")],
     },
     {
       begin: "10:00",
       end: "11:00",
-      sessions: [require("../presentations/patrick-stapfer")],
+      sessions: [require("../talks/patrick-stapfer")],
     },
     {
       begin: "11:00",
@@ -40,22 +40,22 @@ module.exports = {
     {
       begin: "13:00",
       end: "14:00",
-      sessions: [require("../presentations/david-khourshid")],
+      sessions: [require("../talks/david-khourshid")],
     },
     {
       begin: "14:00",
       end: "15:00",
-      sessions: [require("../presentations/gant-laborde")],
+      sessions: [require("../talks/gant-laborde")],
     },
     {
       begin: "15:00",
       end: "15:45",
-      sessions: [require("../presentations/shay-keinan")],
+      sessions: [require("../talks/shay-keinan")],
     },
     {
       begin: "15:45",
       end: "16:30",
-      sessions: [require("../presentations/nik-graf")],
+      sessions: [require("../talks/nik-graf")],
     },
     {
       begin: "16:30",

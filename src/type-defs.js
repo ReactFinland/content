@@ -2,6 +2,8 @@ module.exports = `
   type Query {
     breakfasts: [Session],
     coffeeBreaks: [Session],
+    keynotes: [Session],
+    lightningTalks: [Session],
     lunches: [Session],
     organizers: [Contact],
     panels: [Session],
@@ -9,6 +11,7 @@ module.exports = `
     presentations: [Session],
     schedules: [Schedule],
     speakers: [Contact],
+    talks: [Session],
     tickets: [[Ticket]],
     workshops: [Session]
   }
