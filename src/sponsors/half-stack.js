@@ -1,8 +1,11 @@
+const enums = require("../enums");
+
 module.exports = {
   name: "Halfstack",
   about:
     "HalfStack is a one-day, single track, fun JS conf in a Shoreditch pub",
   image: "halfstack.svg",
+  type: enums.PARTNER,
   social: {
     homepage: "http://halfstackconf.com/",
     facebook: "halfstackconf",
