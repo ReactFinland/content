@@ -16,6 +16,11 @@ assert.equal(
 );
 
 assert.equal(
+  content.speakers.find(o => o.name === "Jani Eväkallio").keynotes[0].title,
+  content.keynotes.find(o => o.title === "").title
+);
+
+assert.equal(
   content.speakers.find(o => o.name === "Varya Stepanova").lightningTalks[0]
     .title,
   content.lightningTalks.find(
