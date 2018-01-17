@@ -39,7 +39,8 @@ module.exports = `
     keywords: [String],
     keynotes: [Session],
     lightningTalks: [Session],
-    presentations: [Session]
+    presentations: [Session],
+    workshops: [Session]
   }
 
   type Social {
