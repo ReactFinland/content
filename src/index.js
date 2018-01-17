@@ -3,6 +3,10 @@ const sponsors = require("./sponsors");
 const workshops = require("./workshops");
 const enums = require("./enums");
 
+const lightningTalks = talks.filter(
+    ({ type }) => type === enums.LIGHTNING_TALK
+);
+
 module.exports = {
     schema: {
         enums: require("./enums"),
@@ -13,9 +17,7 @@ module.exports = {
         breakfasts: require("./breakfasts"),
         coffeeBreaks: require("./coffee-breaks"),
         keynotes: talks.filter(({ type }) => type === enums.KEYNOTE),
-        lightningTalks: talks.filter(
-            ({ type }) => type === enums.LIGHTNING_TALK
-        ),
+        lightningTalks,
         lunches: require("./lunches"),
         organizers: require("./organizers"),
         panels: require("./panels"),
@@ -33,6 +35,12 @@ module.exports = {
         presentations: talks.filter(({ type }) => type === enums.PRESENTATION),
         schedules: require("./schedules"),
         speakers: associate(require("./speakers"), [
+            {
+                field: "lightningTalks",
+                sourceData: lightningTalks,
+                condition: ({ source: { speakers }, target: { name } }) =>
+                    speakers.map(({ name }) => name).indexOf(name) >= 0,
+            },
             {
                 field: "workshops",
                 sourceData: workshops,

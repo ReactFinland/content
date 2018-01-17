@@ -15,6 +15,16 @@ assert.equal(
   content.workshops.find(o => o.title === "Styleguide-driven Development").title
 );
 
+assert.equal(
+  content.speakers.find(o => o.name === "Varya Stepanova").lightningTalks[0]
+    .title,
+  content.lightningTalks.find(
+    o =>
+      o.title ===
+      "How to use React, webpack and other buzzwords if there is no need"
+  ).title
+);
+
 assert(content.partners.find(o => o.name === "Agent Conf"));
 
 assert.equal(
