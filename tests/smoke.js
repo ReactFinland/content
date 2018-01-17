@@ -9,6 +9,12 @@ assert.equal(
   "Andrey Okonetchnikov"
 );
 
+assert.equal(
+  content.speakers.find(o => o.name === "Andrey Okonetchnikov").workshops[0]
+    .title,
+  content.workshops.find(o => o.title === "Styleguide-driven Development").title
+);
+
 assert(content.partners.find(o => o.name === "Agent Conf"));
 
 assert.equal(

@@ -1,5 +1,6 @@
 const talks = require("./talks");
 const sponsors = require("./sponsors");
+const workshops = require("./workshops");
 const enums = require("./enums");
 
 module.exports = {
@@ -31,9 +32,36 @@ module.exports = {
         ),
         presentations: talks.filter(({ type }) => type === enums.PRESENTATION),
         schedules: require("./schedules"),
-        speakers: require("./speakers"),
+        speakers: associate(require("./speakers"), [
+            {
+                field: "workshops",
+                sourceData: workshops,
+                condition: ({ source: { speakers }, target: { name } }) =>
+                    speakers.map(({ name }) => name).indexOf(name) >= 0,
+            },
+        ]),
         talks,
         tickets: require("./tickets"),
-        workshops: require("./workshops"),
+        workshops,
     },
 };
+
+function associate(data, rules) {
+    return data.map(target => {
+        const associations = {};
+
+        rules.forEach(({ field, sourceData, condition }) => {
+            sourceData.forEach(source => {
+                if (condition({ source, target })) {
+                    if (!associations[field]) {
+                        associations[field] = [];
+                    }
+
+                    associations[field].push(source);
+                }
+            });
+        });
+
+        return Object.assign({}, target, associations);
+    });
+}
