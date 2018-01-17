@@ -40,26 +40,22 @@ module.exports = {
             {
                 field: "keynotes",
                 sourceData: keynotes,
-                condition: ({ source: { speakers }, target: { name } }) =>
-                    speakers.map(({ name }) => name).indexOf(name) >= 0,
+                condition: speakersContainSpeakerByName,
             },
             {
                 field: "lightningTalks",
                 sourceData: lightningTalks,
-                condition: ({ source: { speakers }, target: { name } }) =>
-                    speakers.map(({ name }) => name).indexOf(name) >= 0,
+                condition: speakersContainSpeakerByName,
             },
             {
                 field: "presentations",
                 sourceData: presentations,
-                condition: ({ source: { speakers }, target: { name } }) =>
-                    speakers.map(({ name }) => name).indexOf(name) >= 0,
+                condition: speakersContainSpeakerByName,
             },
             {
                 field: "workshops",
                 sourceData: workshops,
-                condition: ({ source: { speakers }, target: { name } }) =>
-                    speakers.map(({ name }) => name).indexOf(name) >= 0,
+                condition: speakersContainSpeakerByName,
             },
         ]),
         talks,
@@ -86,4 +82,11 @@ function associate(data, rules) {
 
         return Object.assign({}, target, associations);
     });
+}
+
+function speakersContainSpeakerByName({
+    source: { speakers },
+    target: { name },
+}) {
+    return speakers.map(({ name }) => name).indexOf(name) >= 0;
 }
