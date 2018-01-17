@@ -8,6 +8,14 @@ const lightningTalks = talks.filter(
     ({ type }) => type === enums.LIGHTNING_TALK
 );
 const presentations = talks.filter(({ type }) => type === enums.PRESENTATION);
+const partners = sponsors.filter(({ type }) => type === enums.PARTNER);
+const goldSponsors = sponsors.filter(({ type }) => type === enums.GOLD_SPONSOR);
+const silverSponsors = sponsors.filter(
+    ({ type }) => type === enums.SILVER_SPONSOR
+);
+const bronzeSponsors = sponsors.filter(
+    ({ type }) => type === enums.BRONZE_SPONSOR
+);
 
 module.exports = {
     schema: {
@@ -24,16 +32,10 @@ module.exports = {
         organizers: require("./organizers"),
         panels: require("./panels"),
         sponsors,
-        partners: sponsors.filter(({ type }) => type === enums.PARTNER),
-        goldSponsors: sponsors.filter(
-            ({ type }) => type === enums.GOLD_SPONSOR
-        ),
-        silverSponsors: sponsors.filter(
-            ({ type }) => type === enums.SILVER_SPONSOR
-        ),
-        bronzeSponsors: sponsors.filter(
-            ({ type }) => type === enums.BRONZE_SPONSOR
-        ),
+        partners,
+        goldSponsors,
+        silverSponsors,
+        bronzeSponsors,
         presentations,
         schedules: require("./schedules"),
         speakers: associate(require("./speakers"), [
