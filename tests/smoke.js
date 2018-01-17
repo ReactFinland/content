@@ -16,6 +16,14 @@ assert.equal(
 );
 
 assert.equal(
+  content.speakers.find(o => o.name === "Christian Alfoni").presentations[0]
+    .title,
+  content.presentations.find(
+    o => o.title === "Declarative state and side effects"
+  ).title
+);
+
+assert.equal(
   content.speakers.find(o => o.name === "Jani Eväkallio").keynotes[0].title,
   content.keynotes.find(o => o.title === "").title
 );

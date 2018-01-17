@@ -7,6 +7,7 @@ const keynotes = talks.filter(({ type }) => type === enums.KEYNOTE);
 const lightningTalks = talks.filter(
     ({ type }) => type === enums.LIGHTNING_TALK
 );
+const presentations = talks.filter(({ type }) => type === enums.PRESENTATION);
 
 module.exports = {
     schema: {
@@ -33,7 +34,7 @@ module.exports = {
         bronzeSponsors: sponsors.filter(
             ({ type }) => type === enums.BRONZE_SPONSOR
         ),
-        presentations: talks.filter(({ type }) => type === enums.PRESENTATION),
+        presentations,
         schedules: require("./schedules"),
         speakers: associate(require("./speakers"), [
             {
@@ -45,6 +46,12 @@ module.exports = {
             {
                 field: "lightningTalks",
                 sourceData: lightningTalks,
+                condition: ({ source: { speakers }, target: { name } }) =>
+                    speakers.map(({ name }) => name).indexOf(name) >= 0,
+            },
+            {
+                field: "presentations",
+                sourceData: presentations,
                 condition: ({ source: { speakers }, target: { name } }) =>
                     speakers.map(({ name }) => name).indexOf(name) >= 0,
             },
