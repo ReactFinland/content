@@ -3,6 +3,7 @@ module.exports = [
   require("./half-stack"),
   require("./react-day-berlin"),
   require("./react-fest"),
+  require("./reason-conf"),
   require("./survivejs"),
   require("./webexpo"),
 ];
