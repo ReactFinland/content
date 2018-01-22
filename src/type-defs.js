@@ -40,6 +40,7 @@ module.exports = `
     keynotes: [Session],
     lightningTalks: [Session],
     presentations: [Session],
+    talks: [Session],
     workshops: [Session]
   }
 
