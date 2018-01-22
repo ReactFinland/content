@@ -16,7 +16,7 @@ module.exports = {
     {
       begin: "10:00",
       end: "11:00",
-      sessions: [require("../talks/kasia-jastrzebska")],
+      sessions: [require("../talks/christian-alfoni")],
     },
     {
       begin: "11:00",
@@ -43,7 +43,7 @@ module.exports = {
     {
       begin: "13:00",
       end: "14:00",
-      sessions: [require("../talks/christian-alfoni")],
+      sessions: [require("../talks/kasia-jastrzebska")],
     },
     {
       begin: "14:00",
