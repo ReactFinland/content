@@ -24,6 +24,7 @@ module.exports = `
     day: String,
     title: String,
     description: String,
+    type: String,
     speakers: [Contact],
     tickets: [Ticket],
     keywords: [String]
