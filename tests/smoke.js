@@ -24,14 +24,36 @@ assert.equal(
 );
 
 assert.equal(
+  content.speakers.find(o => o.name === "Christian Alfoni").presentations[0]
+    .title,
+  content.talks.find(o => o.title === "Declarative state and side effects")
+    .title
+);
+
+assert.equal(
   content.speakers.find(o => o.name === "Jani Eväkallio").keynotes[0].title,
   content.keynotes.find(o => o.title === "").title
+);
+
+assert.equal(
+  content.speakers.find(o => o.name === "Jani Eväkallio").keynotes[0].title,
+  content.talks.find(o => o.title === "").title
 );
 
 assert.equal(
   content.speakers.find(o => o.name === "Varya Stepanova").lightningTalks[0]
     .title,
   content.lightningTalks.find(
+    o =>
+      o.title ===
+      "How to use React, webpack and other buzzwords if there is no need"
+  ).title
+);
+
+assert.equal(
+  content.speakers.find(o => o.name === "Varya Stepanova").lightningTalks[0]
+    .title,
+  content.talks.find(
     o =>
       o.title ===
       "How to use React, webpack and other buzzwords if there is no need"

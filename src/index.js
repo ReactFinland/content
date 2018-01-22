@@ -55,6 +55,11 @@ module.exports = {
                 condition: speakersContainSpeakerByName,
             },
             {
+                field: "talks",
+                sourceData: talks,
+                condition: speakersContainSpeakerByName,
+            },
+            {
                 field: "workshops",
                 sourceData: workshops,
                 condition: speakersContainSpeakerByName,
