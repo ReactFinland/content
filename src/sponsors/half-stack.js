@@ -1,7 +1,7 @@
 const enums = require("../enums");
 
 module.exports = {
-  name: "Halfstack",
+  name: "HalfStack",
   about:
     "HalfStack is a one-day, single track, fun JS conf in a Shoreditch pub",
   image: "halfstack.svg",
