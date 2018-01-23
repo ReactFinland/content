@@ -1,7 +1,7 @@
 const enums = require("../enums");
 
 module.exports = {
-  name: "Reason Conf",
+  name: "ReasonConf",
   about:
     "World’s first Reason conference for web-developers & OCaml enthusiasts",
   image: "reason-conf.svg",
