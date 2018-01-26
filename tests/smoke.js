@@ -32,12 +32,12 @@ assert.equal(
 
 assert.equal(
   content.speakers.find(o => o.name === "Jani Eväkallio").keynotes[0].title,
-  content.keynotes.find(o => o.title === "").title
+  content.keynotes.find(o => o.title === "The New Best Practices").title
 );
 
 assert.equal(
   content.speakers.find(o => o.name === "Jani Eväkallio").keynotes[0].title,
-  content.talks.find(o => o.title === "").title
+  content.talks.find(o => o.title === "The New Best Practices").title
 );
 
 assert.equal(
