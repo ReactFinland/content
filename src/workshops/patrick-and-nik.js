@@ -17,7 +17,6 @@ In more detail, the workshop will cover following topics:
 - Why ReasonML?
 - Introduction to the platform / tech stack (OCaml, BuckleScript, Tooling, ReasonML)
 - Dev-Setup / Editor integration
-
 - Basic language features (data types, pattern-matching, Collection APIs)
 - BuckleScript related topics (JS-compilation,
 - React related topics (stateless / reducer components, JSX, CSS etc.)
