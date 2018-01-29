@@ -16,7 +16,7 @@ module.exports = {
       name: "United States",
       code: "US",
     },
-    city: "",
+    city: "Allenwood",
   },
   keywords: [keywords.REACT],
 };
