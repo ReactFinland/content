@@ -5,7 +5,7 @@
   "main": "./src",
   "scripts": {
     "format": "prettier ./src/**/{*.js,*.json} --write",
-    "test": "node tests/smoke.js",
+    "test": "node tests.js",
     "postpublish": "git push --follow-tags"
   },
   "keywords": [],

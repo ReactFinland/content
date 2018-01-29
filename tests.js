@@ -1,7 +1,7 @@
 const assert = require("assert");
 const graphql = require("graphql").graphql;
 const { makeExecutableSchema } = require("graphql-tools");
-const { schema, content } = require("../");
+const { schema, content } = require("./");
 
 assert.equal(
   content.workshops.find(o => o.title === "Styleguide-driven Development")
