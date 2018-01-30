@@ -8,7 +8,7 @@ module.exports = {
     homepage: "",
     twitter: "michal_chudziak",
     github: "mike866",
-    linkedin: "michel-weststrate-3558463",
+    linkedin: "michalchudziak",
   },
   location: {
     country: {
