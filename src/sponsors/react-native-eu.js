@@ -15,6 +15,6 @@ module.exports = {
       name: "Poland",
       code: "PL",
     },
-    city: "Wroclaw",
+    city: "Wrocław",
   },
 };
