@@ -8,6 +8,7 @@ module.exports = [
   require("./juho-vepsalainen"),
   require("./kasia-jastrzebska"),
   require("./ken-wheeler"),
+  require("./michal-chudziak"),
   require("./michel-weststrate"),
   require("./nik-graf"),
   require("./patrick-hund"),
