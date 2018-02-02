@@ -7,6 +7,7 @@ module.exports = [
   require("./react-fest"),
   require("./react-native-eu"),
   require("./reason-conf"),
+  require("./rohea"),
   require("./survivejs"),
   require("./webexpo"),
 ];
