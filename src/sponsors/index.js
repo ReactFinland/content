@@ -1,5 +1,6 @@
 module.exports = [
   require("./agent-conf"),
+  require("./gofore"),
   require("./half-stack"),
   require("./react-alicante"),
   require("./react-day-berlin"),
