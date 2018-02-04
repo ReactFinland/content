@@ -15,17 +15,13 @@ module.exports = {
     },
     {
       begin: "10:00",
-      end: "11:00",
-      sessions: [require("../talks/patrick-stapfer")],
+      end: "10:30",
+      sessions: [require("../talks/nik-graf")],
     },
     {
-      begin: "11:00",
+      begin: "11:45",
       end: "11:30",
-      sessions: [
-        {
-          title: "Lightning talks",
-        },
-      ],
+      sessions: [require("../talks/patrick-stapfer")],
     },
     {
       begin: "11:30",
@@ -55,7 +51,7 @@ module.exports = {
     {
       begin: "15:45",
       end: "16:30",
-      sessions: [require("../talks/nik-graf")],
+      sessions: [require("../talks/michal-chudziak")],
     },
     {
       begin: "16:30",
