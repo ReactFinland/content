@@ -10,12 +10,12 @@ module.exports = {
     },
     {
       begin: "09:00",
-      end: "10:00",
+      end: "09:45",
       sessions: [require("../talks/ken-wheeler")],
     },
     {
       begin: "10:00",
-      end: "11:00",
+      end: "10:45",
       sessions: [require("../talks/christian-alfoni")],
     },
     {
@@ -37,22 +37,22 @@ module.exports = {
     },
     {
       begin: "12:30",
-      end: "13:00",
-      sessions: [require("../panels").filter(o => o.day === day)[0]],
-    },
-    {
-      begin: "13:00",
-      end: "14:00",
+      end: "13:15",
       sessions: [require("../talks/kasia-jastrzebska")],
     },
     {
-      begin: "14:00",
-      end: "15:00",
+      begin: "13:30",
+      end: "14:15",
       sessions: [require("../talks/sia-karamalegos")],
     },
     {
-      begin: "15:00",
-      end: "15:45",
+      begin: "14:15",
+      end: "14:45",
+      sessions: [require("../coffee-breaks").find(o => o.day === day)],
+    },
+    {
+      begin: "14:45",
+      end: "15:30",
       sessions: [require("../talks/sara-vieira")],
     },
     {
@@ -78,7 +78,7 @@ module.exports = {
     {
       begin: "17:30",
       end: "18:00",
-      sessions: [require("../panels").filter(o => o.day === day)[1]],
+      sessions: [require("../panels").filter(o => o.day === day)[0]],
     },
   ],
 };
