@@ -36,7 +36,7 @@ module.exports = {
     {
       begin: "13:30",
       end: "14:15",
-      sessions: [require("../talks/gant-laborde")],
+      sessions: [require("../talks/shay-keinan")],
     },
     {
       begin: "14:15",
@@ -46,12 +46,12 @@ module.exports = {
     {
       begin: "14:45",
       end: "15:30",
-      sessions: [require("../talks/shay-keinan")],
+      sessions: [require("../talks/michal-chudziak")],
     },
     {
       begin: "15:45",
       end: "16:30",
-      sessions: [require("../talks/michal-chudziak")],
+      sessions: [require("../talks/gant-laborde")],
     },
     {
       begin: "16:30",
