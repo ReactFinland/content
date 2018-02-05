@@ -2,6 +2,7 @@ module.exports = [
   require("./agent-conf"),
   require("./gofore"),
   require("./half-stack"),
+  require("./motley"),
   require("./react-alicante"),
   require("./react-day-berlin"),
   require("./react-fest"),
