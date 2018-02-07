@@ -10,6 +10,7 @@ module.exports = [
   require("./react-native-eu"),
   require("./reason-conf"),
   require("./rohea"),
+  require("./solita"),
   require("./survivejs"),
   require("./webexpo"),
 ];
