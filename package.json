@@ -6,6 +6,7 @@
   "scripts": {
     "format": "prettier ./src/**/{*.js,*.json} --write",
     "test": "node tests.js",
+    "precommit": "npm test",
     "postpublish": "git push --follow-tags"
   },
   "keywords": [],
@@ -14,6 +15,7 @@
   "devDependencies": {
     "graphql": "^0.12.3",
     "graphql-tools": "^2.14.1",
+    "husky": "^0.14.3",
     "prettier": "^1.9.1"
   },
   "repository": {
