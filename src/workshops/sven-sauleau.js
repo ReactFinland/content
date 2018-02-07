@@ -3,7 +3,15 @@ const keywords = require("../keywords");
 module.exports = {
   speakers: [require("../speakers/sven-sauleau")],
   title: "Babel",
-  description: `The Babel workshop demystifies how the JSX syntax works in Babel and shows how to create your first plugin using code transformation, type analysis, or other compiler buzzwords.`,
+  description: `
+  You will learn how to refactor your React code effectively in this workshop by Sven Sauleau, one of the core developers of Babel. He will discuss the following topics:
+
+  * How and why JSX syntax works?
+  * How to create your first Babel plugin?
+  * How to perform type analysis?
+
+  [Read your own refactoring tool](https://www.xtuc.fr/notes/your-own-refactoring-tool.html) article to learn more!
+  `
   tickets: [
     {
       ...require("../tickets/morning-workshop")[0],
