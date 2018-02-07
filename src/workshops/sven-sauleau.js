@@ -11,7 +11,7 @@ module.exports = {
   * How to perform type analysis?
 
   [Read your own refactoring tool](https://www.xtuc.fr/notes/your-own-refactoring-tool.html) article to learn more!
-  `
+  `,
   tickets: [
     {
       ...require("../tickets/morning-workshop")[0],
