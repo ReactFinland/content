@@ -53,7 +53,8 @@ module.exports = `
     medium: String,
     instagram: String,
     linkedin: String,
-    youtube: String
+    youtube: String,
+    vk: String
   }
 
   type Location {

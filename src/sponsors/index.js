@@ -12,5 +12,6 @@ module.exports = [
   require("./rohea"),
   require("./solita"),
   require("./survivejs"),
+  require("./verkkokauppa"),
   require("./webexpo"),
 ];
