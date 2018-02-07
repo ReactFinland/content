@@ -7,6 +7,7 @@
     "format": "prettier ./src/**/{*.js,*.json} --write",
     "test": "node tests.js",
     "precommit": "npm test",
+    "preversion": "npm test",
     "postpublish": "git push --follow-tags"
   },
   "keywords": [],
