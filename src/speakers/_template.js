@@ -3,7 +3,7 @@ const keywords = require("../keywords");
 module.exports = {
   name: "",
   about: "",
-  image: "TODO.jpg", // TODO: Place image at root images/ and update name
+  image: "speakers/TODO.jpg", // TODO: Place image at root images/ and update name
   social: {
     homepage: "",
     twitter: "",

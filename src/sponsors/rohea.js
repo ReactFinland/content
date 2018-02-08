@@ -4,7 +4,7 @@ module.exports = {
   name: "Rohea",
   about:
     "ROHEA is a Finnish tech company that makes demanding software simple, scalable and usable for everyday needs.",
-  image: "rohea.png",
+  image: "sponsors/rohea.png",
   type: enums.BRONZE_SPONSOR,
   social: {
     homepage: "http://www.rohea.com/",

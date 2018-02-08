@@ -4,7 +4,7 @@ module.exports = {
   name: "HalfStack",
   about:
     "HalfStack is a one-day, single track, fun JS conf in a Shoreditch pub",
-  image: "halfstack.svg",
+  image: "sponsors/halfstack.svg",
   type: enums.PARTNER,
   social: {
     homepage: "http://halfstackconf.com/",

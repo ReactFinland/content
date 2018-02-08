@@ -3,7 +3,7 @@ const enums = require("../enums");
 module.exports = {
   name: "Motley",
   about: "We create better futures for businesses",
-  image: "motley.svg",
+  image: "sponsors/motley.svg",
   type: enums.SILVER_SPONSOR,
   social: {
     homepage: "https://motley.fi/",

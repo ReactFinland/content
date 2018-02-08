@@ -4,7 +4,7 @@ module.exports = {
   name: "ReasonConf",
   about:
     "World’s first Reason conference for web-developers & OCaml enthusiasts",
-  image: "reason-conf.svg",
+  image: "sponsors/reason-conf.svg",
   type: enums.PARTNER,
   social: {
     homepage: "https://www.reason-conf.com/",

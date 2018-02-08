@@ -1,7 +1,7 @@
 module.exports = {
   name: "Aarni Koskela",
   about: "",
-  image: "aarni.jpg",
+  image: "organizers/aarni.jpg",
   social: {
     homepage: "",
     twitter: "akx",

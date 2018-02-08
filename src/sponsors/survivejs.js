@@ -3,7 +3,7 @@ const enums = require("../enums");
 module.exports = {
   name: "SurviveJS",
   about: "SurviveJS will take you from a JavaScript apprentice to master",
-  image: "survivejs.png",
+  image: "sponsors/survivejs.png",
   type: enums.PARTNER,
   social: {
     homepage: "https://survivejs.com/",

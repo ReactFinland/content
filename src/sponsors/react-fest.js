@@ -3,7 +3,7 @@ const enums = require("../enums");
 module.exports = {
   name: "ReactFest",
   about: "A one day open-source ReactJS conference - festival",
-  image: "react-fest.png",
+  image: "sponsors/react-fest.png",
   type: enums.PARTNER,
   social: {
     homepage: "https://reactfest.com/",

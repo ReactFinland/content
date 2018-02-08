@@ -2,7 +2,7 @@ module.exports = {
   name: "Harri Määttä",
   about:
     "Mobile Developer. Also DevOps Specialist. Otherwise nice guy. Lives in Helsinki, so can help with local issues (=I know bars!)",
-  image: "harri.jpg",
+  image: "organizers/harri.jpg",
   social: {
     homepage: "",
     twitter: "HarriMaatta",
