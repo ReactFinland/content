@@ -36,7 +36,8 @@ module.exports = `
     title: String!,
     description: String!,
     intro: String,
-    main: String
+    main: String,
+    secondary: String
   }
 
   type Contact {

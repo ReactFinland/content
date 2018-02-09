@@ -8,4 +8,5 @@ module.exports = {
 
   In this single track event you will learn more about React and surrounding topics while meeting some of the leading talents of the community. In addition to enjoying the event, this is your chance to explore Finland.
   `,
+  secondary: `By the way, we proudly follow [Berlin code of conduct](http://berlincodeofconduct.org/).`,
 };
