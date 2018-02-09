@@ -1,6 +1,7 @@
 module.exports = [
   require("./agent-conf"),
   require("./elisa"),
+  require("./geniem"),
   require("./gofore"),
   require("./half-stack"),
   require("./nitor"),
