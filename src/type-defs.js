@@ -12,6 +12,7 @@ module.exports = `
     goldSponsors: [Contact],
     silverSponsors: [Contact],
     bronzeSponsors: [Contact],
+    pages: [Page],
     presentations: [Session],
     schedules: [Schedule],
     speakers: [Contact],
@@ -28,6 +29,14 @@ module.exports = `
     speakers: [Contact],
     tickets: [Ticket],
     keywords: [String]
+  }
+
+  type Page {
+    id: String!,
+    title: String!,
+    description: String!,
+    intro: String,
+    main: String
   }
 
   type Contact {

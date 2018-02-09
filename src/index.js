@@ -31,6 +31,7 @@ module.exports = {
         lunches: require("./lunches"),
         organizers: require("./organizers"),
         panels: require("./panels"),
+        pages: require("./pages"),
         sponsors,
         partners,
         goldSponsors,
