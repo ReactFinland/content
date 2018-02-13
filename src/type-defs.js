@@ -13,6 +13,7 @@ module.exports = `
     silverSponsors: [Contact],
     bronzeSponsors: [Contact],
     pages: [Page],
+    page(id: String): Page,
     presentations: [Session],
     schedules: [Schedule],
     speakers: [Contact],

@@ -1,7 +1,6 @@
 const assert = require("assert");
 const graphql = require("graphql").graphql;
-const { makeExecutableSchema } = require("graphql-tools");
-const { schema, content } = require("./");
+const { client, schema, content } = require("./");
 
 assert.equal(
   content.workshops.find(o => o.title === "Styleguide-driven Development")
@@ -76,15 +75,7 @@ assert.equal(
   schema.enums.LIGHTNING_TALK
 );
 
-graphql(
-  makeExecutableSchema({
-    typeDefs: schema.typeDefs,
-    resolvers: {
-      Query: generateQueries(),
-    },
-  }),
-  "{ speakers { name } }"
-)
+graphql(schema.executable(), "{ speakers { name } }")
   .then(({ data }) => {
     assert.deepEqual(
       data.speakers.map(speaker => speaker.name),
@@ -95,12 +86,17 @@ graphql(
     throw new Error(e);
   });
 
-function generateQueries() {
-  const ret = {};
-
-  Object.keys(content).forEach(k => {
-    ret[k] = () => Object.values(content[k]);
+graphql(
+  schema.executable(),
+  `
+    {
+      page(id: "about") {
+        id
+      }
+    }
+  `
+)
+  .then(({ data: { page: { id } } }) => assert(id === "about"))
+  .catch(e => {
+    throw new Error(e);
   });
-
-  return ret;
-}
