@@ -1,5 +1,6 @@
 module.exports = [
   require("./agent-conf"),
+  require("./alma"),
   require("./elisa"),
   require("./geniem"),
   require("./gofore"),
