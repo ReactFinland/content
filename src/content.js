@@ -1,5 +1,6 @@
 const talks = require("./talks");
-const sponsors = require("./sponsors");
+const speakers = resolveSocialLinks(require("./speakers"));
+const sponsors = resolveSocialLinks(require("./sponsors"));
 const workshops = require("./workshops");
 const enums = require("./enums");
 
@@ -33,7 +34,7 @@ module.exports = {
     bronzeSponsors,
     presentations,
     schedules: require("./schedules"),
-    speakers: associate(require("./speakers"), [
+    speakers: associate(speakers, [
         {
             field: "keynotes",
             sourceData: keynotes,
@@ -90,4 +91,32 @@ function speakersContainSpeakerByName({
     target: { name },
 }) {
     return speakers.map(({ name }) => name).indexOf(name) >= 0;
+}
+
+function resolveSocialLinks(data) {
+    function resolve(social) {
+        const rules = {
+            homepage: social.homepage,
+            facebook: `https://facebook.com/${social.facebook}`,
+            github: `https://github.com/${social.github}`,
+            linkedin: `https://linkedin.com/${social.linkedin}`,
+            medium: `https://medium.com/${social.medium}`,
+            instagram: `https://instagram.com/${social.instagram}`,
+            twitter: `https://twitter.com/${social.twitter}`,
+            youtube: `https://www.youtube.com/${social.youtube}`,
+            vk: `https://vk.com/${social.vk}`,
+        };
+        const ret = {};
+
+        Object.keys(social).forEach(media => {
+            ret[media] = rules[media];
+        });
+
+        return ret;
+    }
+
+    return data.map(o => ({
+        ...o,
+        social: resolve(o.social),
+    }));
 }

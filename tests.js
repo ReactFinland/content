@@ -15,6 +15,26 @@ assert.equal(
 );
 
 assert.equal(
+  content.speakers.find(o => o.name === "Andrey Okonetchnikov").social.twitter,
+  "https://twitter.com/okonetchnikov"
+);
+
+assert.equal(
+  content.sponsors.find(o => o.name === "Solita").social.linkedin,
+  "https://linkedin.com/company/solita-oy"
+);
+
+assert.equal(
+  content.sponsors.find(o => o.name === "Solita").social.medium,
+  undefined
+);
+
+assert.equal(
+  content.sponsors.find(o => o.name === "Solita").social.homepage,
+  "https://www.solita.fi/en/"
+);
+
+assert.equal(
   content.speakers.find(o => o.name === "Christian Alfoni").presentations[0]
     .title,
   content.presentations.find(
