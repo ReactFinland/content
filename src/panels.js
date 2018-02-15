@@ -1,11 +1,11 @@
 module.exports = [
   {
-    day: "25-04-2018",
+    day: "2018-04-25",
     title: "Panel",
     description: "Panel discussion to end the day.",
   },
   {
-    day: "26-04-2018",
+    day: "2018-04-26",
     title: "Panel",
     description: "Panel discussion to end the conference.",
   },

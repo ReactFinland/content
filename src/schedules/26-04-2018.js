@@ -1,4 +1,4 @@
-const day = "26-04-2018";
+const day = "2018-04-26";
 
 module.exports = {
   day,
