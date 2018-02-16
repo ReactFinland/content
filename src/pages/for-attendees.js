@@ -22,6 +22,12 @@ There's a direct train from the airport to Helsinki center. HSL operates the loc
 * A swimming suit.
 * A towel.
 
+## How to Follow the Conference Program?
+
+1. Use the site [schedule](/schedule/).
+2. Use the mobile applications (Android, iPhone).
+3. [Subscribe to the conference calendar](https://api.react-finland.fi/calendar-2018.ics). You can import it to your Google Calendar for example.
+
 ## What Should I Know About Finland?
 
 * We speak Finnish, English, and Swedish (poorly most often). [Check out our brief guide to Finnish](https://medium.com/react-finland/brief-guide-to-finnish-7f43f37d5017) in order to surprise the locals.
