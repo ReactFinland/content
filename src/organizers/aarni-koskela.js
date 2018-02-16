@@ -1,12 +1,12 @@
 module.exports = {
   name: "Aarni Koskela",
-  about: "",
+  about: "Aarni works on the site and the app. Specializes in terrible puns.",
   image: "organizers/aarni.jpg",
   social: {
     homepage: "",
     twitter: "akx",
     github: "akx",
-    linkedin: "",
+    linkedin: "aarni",
   },
   location: {
     country: {
