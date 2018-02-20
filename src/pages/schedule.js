@@ -10,7 +10,6 @@ The schedule of the event has been carefully curated. In true Finnish style, we 
 
 Each session will take four hours and they are arranged twice so you have a chance to choose two. A session is capped to twenty people. The first sessions are from 9 to 13 and the second sessions are from 14 to 18.
 
-* **Babel** – Learn Babel thoroughly with Sven Sauleau, a core developer.
 * **Reactive State Machines**—Learn how to refactor an old application to use state machines with David Khourshid.
 * **ReasonML** – See the reason in ReasonML with Nik Graf and Patrick Stapfer.
 * **Style Guides in React** – Learn to develop style guides for your React application with Andrey Okonetchnikov and Artem Sapegin.
@@ -20,6 +19,7 @@ Each session will take four hours and they are arranged twice so you have a chan
 
 The following four hour workshops are arranged only once:
 
+* **Babel** – Learn Babel thoroughly with Sven Sauleau, a core developer.
 * **Testing React** – Learn how to test React with Sara Vieira.
 * **Detox** – Learn graybox E2E testing with Rotem Mizrachi-Meidan, the author of the tool.
 
