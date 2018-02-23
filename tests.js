@@ -14,6 +14,8 @@ assert.equal(
   content.workshops.find(o => o.title === "Styleguide-driven Development").title
 );
 
+assert(content.speakers.find(o => o.name === "Juho Vepsäläinen"));
+
 assert.equal(
   content.speakers.find(o => o.name === "Andrey Okonetchnikov").social.twitter,
   "https://twitter.com/okonetchnikov"
