@@ -6,4 +6,4 @@ The content of the conference in JavaScript format.
 
 ## Notes
 
-The project relies on **semantic-release**. Write commits accordingly.
+The project relies on [semantic-release](https://www.npmjs.com/package/semantic-release). Write commits accordingly.
