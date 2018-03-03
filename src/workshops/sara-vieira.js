@@ -19,6 +19,10 @@ module.exports = {
       ...require("../tickets/morning-workshop")[1],
       link: "https://ti.to/react-finland/2018/with/wizz0uhlngq",
     },
+    {
+      ...require("../tickets/evening-workshop")[1],
+      link: "https://ti.to/react-finland/2018/with/kip0u88b5ik",
+    },
   ],
   keywords: require("../speakers/sara-vieira").keywords,
 };
