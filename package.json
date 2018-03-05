@@ -7,6 +7,7 @@
     "format": "prettier ./src/**/{*.js,*.json} --write",
     "test": "node tests.js",
     "precommit": "npm test",
+    "postcommit": "commitlint -e",
     "preversion": "npm test",
     "postpublish": "git push --follow-tags",
     "travis-deploy-once": "travis-deploy-once",
@@ -16,12 +17,13 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
+    "commitlint": "^6.1.3",
     "graphql": "^0.13.1",
     "graphql-tools": "^2.21.0",
     "husky": "^0.14.3",
     "prettier": "^1.10.2",
-    "travis-deploy-once": "^4.3.4",
-    "semantic-release": "^12.4.1"
+    "semantic-release": "^12.4.1",
+    "travis-deploy-once": "^4.3.4"
   },
   "peerDependencies": {
     "graphql-tools": ">= 2.0.0 < 3.0.0"
