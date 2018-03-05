@@ -14,13 +14,13 @@ Each session will take four hours and they are arranged twice so you have a chan
 * **ReasonML** – See the reason in ReasonML with Nik Graf and Patrick Stapfer.
 * **Style Guides in React** – Learn to develop style guides for your React application with Andrey Okonetchnikov and Artem Sapegin.
 * **React Native** with Gant Laborde.
+* **Testing React** – Learn how to test React with Sara Vieira.
 * **Universal React with Next.js** – Learn how to develop React in Universal way with Sia Karamalegos.
 * **[Webpack – The Good Parts](https://presentations.survivejs.com/webpack-the-good-parts/)** – Learn more about webpack from one of its core developers, Juho Vepsäläinen.
 
 The following four hour workshops are arranged only once:
 
 * **Babel** – Learn Babel thoroughly with Sven Sauleau, a core developer.
-* **Testing React** – Learn how to test React with Sara Vieira.
 * **Detox** – Learn graybox E2E testing with Rotem Mizrachi-Meidan, the author of the tool.
 
 We also have a full day workshop (eight hours including a lunch):
