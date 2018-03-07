@@ -2,7 +2,12 @@
 
 # React Finland 2018 Content
 
-The content of the conference in JavaScript format. Please use [semantic commit message format](https://github.com/semantic-release/semantic-release#commit-message-format)!
+The content of the conference in JavaScript format. Please use [semantic commit message format](https://github.com/semantic-release/semantic-release#commit-message-format):
+
+* `fix(topic): what` - Patch release.
+* `feat(topic): what` - Feature release.
+* `perf(topic): what` - Breaking release.
+* `BREAKING CHANGE: what` - Breaking release.
 
 ## Notes
 
