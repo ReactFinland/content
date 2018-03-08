@@ -9,7 +9,6 @@
     "precommit": "npm test",
     "postcommit": "commitlint -e",
     "preversion": "npm test",
-    "postpublish": "git push --follow-tags",
     "travis-deploy-once": "travis-deploy-once",
     "semantic-release": "semantic-release"
   },
