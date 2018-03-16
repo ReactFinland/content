@@ -26,7 +26,6 @@ module.exports = {
         require("../workshops/juho-vepsalainen"),
         require("../workshops/patrick-and-nik"),
         require("../workshops/rotem-mizrachi-meidan"),
-        require("../workshops/sara-vieira"),
         require("../workshops/sia-karamalegos"),
         require("../workshops/sven-sauleau"),
       ],
