@@ -4,6 +4,8 @@ module.exports = {
   description: "What is the schedule of React Finland?",
   intro: `
 The schedule of the event has been carefully curated. In true Finnish style, we rather focus on quality than quantity. There is no call for papers and the speakers have been chosen with care.
+
+> [Subscribe to the conference calendar](https://api.react-finland.fi/calendar-2018.ics). You can import it to your Google Calendar for example.
 `,
   main: `
 ## 24.04—Tuesday—[Workshops](/workshops/)
