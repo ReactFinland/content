@@ -1,5 +1,6 @@
 const talks = require("./talks");
 const speakers = resolveSocialLinks(require("./speakers"));
+const organizers = resolveSocialLinks(require("./organizers"));
 const sponsors = resolveSocialLinks(require("./sponsors"));
 const workshops = require("./workshops");
 const enums = require("./enums");
@@ -24,7 +25,7 @@ module.exports = {
     keynotes,
     lightningTalks,
     lunches: require("./lunches"),
-    organizers: require("./organizers"),
+    organizers,
     panels: require("./panels"),
     pages: require("./pages"),
     sponsors,
