@@ -85,7 +85,7 @@ assert(content.partners.find(o => o.name === "Agent Conf"));
 
 assert.equal(
   content.organizers.find(o => o.name === "Toni Ristola").social.twitter,
-  "toniristola"
+  "https://twitter.com/toniristola"
 );
 
 assert.equal(
