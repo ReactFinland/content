@@ -12,7 +12,7 @@ module.exports = {
     facebook: "",
     medium: "@wiekatz",
     instagram: "",
-    linkedin: "https://www.linkedin.com/in/patrickhund/",
+    linkedin: "patrickhund/",
     youtube: "https://www.youtube.com/channel/UCF0c1u0VvFw2MU_fjqtmMbQ",
   },
   location: {
