@@ -10,7 +10,7 @@ module.exports = {
     },
     {
       begin: "09:00",
-      end: "09:30",
+      end: "09:15",
       sessions: [
         {
           title: "Opening ceremonies"
