@@ -24,7 +24,7 @@ module.exports = {
     },
     {
       begin: "10:15",
-      end: "11:45",
+      end: "10:45",
       sessions: [require("../talks/nik-graf")],
     },
     {
