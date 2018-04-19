@@ -19,16 +19,16 @@ module.exports = {
     },
     {
       begin: "09:15",
-      end: "09:45",
-      sessions: [require("../talks/jani-evakallio")],
+      end: "10:00",
+      sessions: [require("../talks/ken-wheeler")],
     },
     {
-      begin: "10:00",
-      end: "10:30",
+      begin: "10:15",
+      end: "11:45",
       sessions: [require("../talks/nik-graf")],
     },
     {
-      begin: "10:45",
+      begin: "11:00",
       end: "11:30",
       sessions: [require("../talks/patrick-stapfer")],
     },

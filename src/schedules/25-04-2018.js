@@ -20,7 +20,7 @@ module.exports = {
     {
       begin: "09:15",
       end: "09:45",
-      sessions: [require("../talks/ken-wheeler")],
+      sessions: [require("../talks/jani-evakallio")],
     },
     {
       begin: "10:00",
