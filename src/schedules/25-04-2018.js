@@ -10,6 +10,15 @@ module.exports = {
     },
     {
       begin: "09:00",
+      end: "09:30",
+      sessions: [
+        {
+          title: "Opening ceremonies"
+        }
+      ]
+    },
+    {
+      begin: "09:15",
       end: "09:45",
       sessions: [require("../talks/ken-wheeler")],
     },
@@ -27,7 +36,6 @@ module.exports = {
         },
         require("../talks/michel-weststrate"),
         require("../talks/patrick-hund"),
-        require("../talks/varya-stepanova"),
       ],
     },
     {
@@ -72,6 +80,7 @@ module.exports = {
         {
           title: "Lightning talks",
         },
+        require("../talks/andrey-okonetchnikov"),
         require("../talks/sven-sauleau"),
       ],
     },

@@ -1,9 +1,13 @@
 module.exports = {
+  APOLLO: "Apollo",
   BABEL: "Babel",
   CEREBRAL: "Cerebral",
+  CODE_QUALITY: "Code quality",
   DETOX: "Detox",
+  GRAPHQL: "GraphQL",
   IMMER: "Immer",
   LEGACY: "Legacy",
+  LINTING: "Linting",
   NEXT_JS: "Next.js",
   MOBX: "MobX",
   MOBX_STATE_TREE: "mobx-state-tree",

@@ -10,6 +10,15 @@ module.exports = {
     },
     {
       begin: "09:00",
+      end: "09:30",
+      sessions: [
+        {
+          title: "Opening ceremonies"
+        }
+      ]
+    },
+    {
+      begin: "09:15",
       end: "09:45",
       sessions: [require("../talks/jani-evakallio")],
     },
@@ -65,6 +74,8 @@ module.exports = {
         {
           title: "Lightning talks",
         },
+        require("../talks/sara-vieira-lightning"),
+        require("../talks/varya-stepanova"),
       ],
     },
     {
