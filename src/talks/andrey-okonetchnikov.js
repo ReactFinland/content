@@ -5,9 +5,7 @@ const speaker = require("../speakers/andrey-okonetchnikov");
 module.exports = {
   speakers: [speaker],
   title: "Make linting great again!",
-  description: `![tabs vs spaces](https://www.emacswiki.org/pics/static/TabsSpacesBoth.png)
-  
-No other topic in software development probably has so much controversy as linting. 
+  description: `No other topic in software development probably has so much controversy as linting. 
   
 With a wrong workflow linting can be really a pain and will slow you and your team down. With a proper setup, though, it can save you hours of manual work reformatting the code and reducing the code-review overhead.
   
