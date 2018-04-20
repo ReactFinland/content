@@ -31,9 +31,7 @@ module.exports = `
     speakers: [Contact],
     tickets: [Ticket],
     keywords: [String],
-    country: Country,
-    city: String,
-    address: String
+    location: Contact
   }
 
   type Page {
@@ -51,13 +49,16 @@ module.exports = `
     image: String,
     type: String,
     social: Social,
-    location: Location,
     keywords: [String],
     keynotes: [Session],
     lightningTalks: [Session],
     presentations: [Session],
     talks: [Session],
-    workshops: [Session]
+    workshops: [Session],
+    location: Location,
+    country: Country,
+    city: String,
+    address: String
   }
 
   type Social {
