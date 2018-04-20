@@ -23,4 +23,5 @@ module.exports = {
     },
   ],
   keywords: require("../speakers/david-khourshid").keywords,
+  location: require("../locations/elisa-appelsiini"),
 };

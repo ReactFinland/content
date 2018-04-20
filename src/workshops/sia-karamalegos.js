@@ -25,4 +25,5 @@ module.exports = {
     },
   ],
   keywords: require("../speakers/sia-karamalegos").keywords,
+  location: require("../locations/elisa-appelsiini"),
 };

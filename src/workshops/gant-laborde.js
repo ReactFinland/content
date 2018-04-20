@@ -23,4 +23,5 @@ module.exports = {
     },
   ],
   keywords: require("../speakers/gant-laborde").keywords,
+  location: require("../locations/valkoinen-sali"),
 };

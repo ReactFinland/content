@@ -4,6 +4,7 @@ module.exports = `
     coffeeBreaks: [Session],
     keynotes: [Session],
     lightningTalks: [Session],
+    locations: [Contact],
     lunches: [Session],
     organizers: [Contact],
     panels: [Session],
@@ -29,7 +30,8 @@ module.exports = `
     type: String,
     speakers: [Contact],
     tickets: [Ticket],
-    keywords: [String]
+    keywords: [String],
+    location: Location
   }
 
   type Page {
@@ -44,7 +46,7 @@ module.exports = `
   type Contact {
     name: String!,
     about: String!,
-    image: String!,
+    image: String,
     type: String,
     social: Social,
     location: Location,
@@ -70,7 +72,8 @@ module.exports = `
 
   type Location {
     country: Country,
-    city: String
+    city: String,
+    address: String
   }
 
   type Country {

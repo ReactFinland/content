@@ -37,6 +37,16 @@ assert.equal(
 );
 
 assert.equal(
+  content.locations.find(o => o.name === "Elisa Appelsiini").social.linkedin,
+  "https://linkedin.com/company/elisa"
+);
+
+assert.equal(
+  content.locations.find(o => o.name === "Valkoinen Sali").location.address,
+  "Aleksanterinkatu 16"
+);
+
+assert.equal(
   content.speakers.find(o => o.name === "Christian Alfoni").presentations[0]
     .title,
   content.presentations.find(

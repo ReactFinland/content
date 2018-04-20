@@ -25,4 +25,5 @@ We will experiment with the following:
     },
   ],
   keywords: require("../speakers/rotem-mizrachi-meidan").keywords,
+  location: require("../locations/valkoinen-sali"),
 };

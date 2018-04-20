@@ -22,6 +22,7 @@ const bronzeSponsors = sponsors.filter(
 module.exports = {
     breakfasts: require("./breakfasts"),
     coffeeBreaks: require("./coffee-breaks"),
+    locations: resolveSocialLinks(require('./locations')),
     keynotes,
     lightningTalks,
     lunches: require("./lunches"),

@@ -23,4 +23,5 @@ module.exports = {
     },
   ],
   keywords: require("../speakers/michel-weststrate").keywords,
+  location: require("../locations/valkoinen-sali"),
 };

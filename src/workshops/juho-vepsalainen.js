@@ -33,4 +33,5 @@ The topics covered include:
     },
   ],
   keywords: require("../speakers/juho-vepsalainen").keywords,
+  location: require("../locations/elisa-appelsiini"),
 };

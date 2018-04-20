@@ -31,4 +31,5 @@ You will learn how to refactor your React code effectively in this workshop by S
     },
   ],
   keywords: require("../speakers/sven-sauleau").keywords,
+  location: require("../locations/elisa-appelsiini"),
 };

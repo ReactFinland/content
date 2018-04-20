@@ -42,4 +42,5 @@ In the end, ambitious attendees will be able to integrate Reason React component
     },
   ],
   keywords: require("../speakers/patrick-stapfer").keywords,
+  location: require("../locations/elisa-appelsiini"),
 };

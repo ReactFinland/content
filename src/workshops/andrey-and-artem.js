@@ -42,4 +42,5 @@ module.exports = {
       require("../speakers/artem-sapegin").keywords
     ),
   ],
+  location: require("../locations/valkoinen-sali"),
 };
