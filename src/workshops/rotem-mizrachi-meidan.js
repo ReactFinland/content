@@ -2,10 +2,18 @@ const keywords = require("../keywords");
 
 module.exports = {
   speakers: [require("../speakers/rotem-mizrachi-meidan")],
-  title: "Detox",
-  description: `High velocity native mobile development requires us to adopt continuous integration workflows, which means our reliance on manual QA has to drop significantly. The most difficult part of automated testing on mobile is the tip of the testing pyramid – E2E. The core problem with E2E tests is flakiness – tests are usually not deterministic.
+  title: "Advanced E2E Testing with Detox",
+  description: `In this workshop we will get to know the cool features hidden in Detox. By getting to know how Detox works and what makes it deterministic, you will be able write better and more stable tests.
 
-  React Native makes flakiness worse due to the asynchronous nature of the bridge. We believe the only way to tackle flakiness head on is by moving from blackbox testing to graybox testing and that’s where detox comes into play. The library synchronizes with the lifecycle of the app, including React Native core, making tests finally deterministic. This workshop shows how to get most out of Detox in React Native context.`,
+You will either build a demo app to experiment with its features (basic and advanced), or work on your existing app’s test suite.
+  
+We will experiment with the following:
+
+1. Running app against mock server
+2. Mocking mechanisms: permissions, user notifications
+3. Understanding synchronization issues
+4. Debugging failed tests
+5. Stabilizing E2E builds in CI`,
   tickets: [
     {
       ...require("../tickets/evening-workshop")[0],
