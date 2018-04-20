@@ -5,12 +5,10 @@ module.exports = {
   social: {
     homepage: "http://www.valkoinensali.com/",
   },
-  location: {
-    country: {
-      name: "Finland",
-      code: "FI",
-    },
-    city: "Helsinki",
-    address: "Aleksanterinkatu 16", 
+  country: {
+    name: "Finland",
+    code: "FI",
   },
+  city: "Helsinki",
+  address: "Aleksanterinkatu 16", 
 };

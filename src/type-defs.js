@@ -31,7 +31,9 @@ module.exports = `
     speakers: [Contact],
     tickets: [Ticket],
     keywords: [String],
-    location: Location
+    country: Country,
+    city: String,
+    address: String
   }
 
   type Page {

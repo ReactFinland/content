@@ -9,6 +9,12 @@ assert.equal(
 );
 
 assert.equal(
+  content.workshops.find(o => o.title === "Styleguide-driven Development")
+    .location.address,
+  "Aleksanterinkatu 16"
+);
+
+assert.equal(
   content.speakers.find(o => o.name === "Andrey Okonetchnikov").workshops[0]
     .title,
   content.workshops.find(o => o.title === "Styleguide-driven Development").title
@@ -42,7 +48,7 @@ assert.equal(
 );
 
 assert.equal(
-  content.locations.find(o => o.name === "Valkoinen Sali").location.address,
+  content.locations.find(o => o.name === "Valkoinen Sali").address,
   "Aleksanterinkatu 16"
 );
 
