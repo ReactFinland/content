@@ -83,5 +83,14 @@ module.exports = {
       end: "18:00",
       sessions: [require("../panels").filter(o => o.day === day)[0]],
     },
+    {
+      begin: "18:30",
+      end: "18:45",
+      sessions: [
+        {
+          title: "Buses leave to after party (Sea Life, Tivolikuja 10)"
+        }
+      ],
+    },
   ],
 };
