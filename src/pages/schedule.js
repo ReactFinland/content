@@ -12,22 +12,22 @@ The schedule of the event has been carefully curated. In true Finnish style, we 
 
 Each session will take four hours and they are arranged twice so you have a chance to choose two. A session is capped to twenty people. The first sessions are from 9 to 13 and the second sessions are from 14 to 18.
 
-* **Reactive State Machines**—Learn how to refactor an old application to use state machines with David Khourshid.
-* **ReasonML** – See the reason in ReasonML with Nik Graf and Patrick Stapfer.
-* **Style Guides in React** – Learn to develop style guides for your React application with Andrey Okonetchnikov and Artem Sapegin.
-* **React Native** with Gant Laborde.
-* **Testing React** – Learn how to test React with Sara Vieira.
+* **Reactive State Machines**—Learn how to refactor an old application to use state machines with David Khourshid. (Elisa Appelsiini)
+* **ReasonML** – See the reason in ReasonML with Nik Graf and Patrick Stapfer. (Elisa Appelsiini)
+* **Style Guides in React** – Learn to develop style guides for your React application with Andrey Okonetchnikov and Artem Sapegin. (Valkoinen Sali)
+* **React Native** with Gant Laborde. (Valkoinen Sali)
+* **Testing React** – Learn how to test React with Sara Vieira. (Valkoinen Sali)
 * **Universal React with Next.js** – Learn how to develop React in Universal way with Sia Karamalegos.
-* **[Webpack – The Good Parts](https://presentations.survivejs.com/webpack-the-good-parts/)** – Learn more about webpack from one of its core developers, Juho Vepsäläinen.
+* **[Webpack – The Good Parts](https://presentations.survivejs.com/webpack-the-good-parts/)** – Learn more about webpack from one of its core developers, Juho Vepsäläinen. (Elisa Appelsiini)
 
 The following four hour workshops are arranged only once:
 
-* **Babel** – Learn Babel thoroughly with Sven Sauleau, a core developer.
-* **Detox** – Learn graybox E2E testing with Rotem Mizrachi-Meidan, the author of the tool.
+* **Babel** – Learn Babel thoroughly with Sven Sauleau, a core developer. (Elisa Appelsiini)
+* **Detox** – Learn graybox E2E testing with Rotem Mizrachi-Meidan, the author of the tool. (Valkoinen Sali)
 
 We also have a full day workshop (eight hours including a lunch):
 
-* **State Management** with Michel Weststrate, the author of MobX and Mobx-State-Tree. This session is longer, from 09 to 18.
+* **State Management** with Michel Weststrate, the author of MobX and Mobx-State-Tree. This session is longer, from 09 to 18. (Valkoinen Sali)
 
 ## 25.04—Wednesday—React
 
