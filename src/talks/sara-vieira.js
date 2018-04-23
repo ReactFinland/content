@@ -3,8 +3,8 @@ const keywords = require("../keywords");
 
 module.exports = {
   speakers: [require("../speakers/sara-vieira")],
-  title: "React Testing",
-  description: "Build apps is hard, super hard but not testing them makes them even harder as time goes by. Ever changed a component and then broke something on the other side of the app? Testing is important! Let's see how we can achieve inner peace in our apps by testing, we will go over Enzyme, Snapshot testing, UI testing and introduce many ways to make tests easier and more enjoyable.",
+  title: "State Management in React Apps with Apollo Client",
+  description: "Apollo has given us freedom and happiness when it comes to managing our data coming from the server but we still had to write code and sometimes a lot of it to manage our local state? Well, what if we managed it with queries too? Sounds too awesome right? Let's learn how to do this with apollo-link-state.",
   type: enums.PRESENTATION,
   keywords: require("../speakers/sara-vieira").keywords,
 };
