@@ -3,6 +3,7 @@ module.exports = [
   require("./artem-sapegin"),
   require("./christian-alfoni"),
   require("./david-khourshid"),
+  require("./eemeli-aro"),
   require("./gant-laborde"),
   require("./jani-evakallio"),
   require("./juho-vepsalainen"),

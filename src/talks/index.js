@@ -1,6 +1,7 @@
 module.exports = [
   require("./christian-alfoni"),
   require("./david-khourshid"),
+  require("./eemeli-aro"),
   require("./gant-laborde"),
   require("./jani-evakallio"),
   require("./kasia-jastrzebska"),
