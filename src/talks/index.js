@@ -2,6 +2,7 @@ module.exports = [
   require("./christian-alfoni"),
   require("./david-khourshid"),
   require("./eemeli-aro"),
+  require("./eemeli-aro-2"),
   require("./gant-laborde"),
   require("./jani-evakallio"),
   require("./kasia-jastrzebska"),
