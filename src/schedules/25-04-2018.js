@@ -36,6 +36,7 @@ module.exports = {
         },
         require("../talks/michel-weststrate"),
         require("../talks/patrick-hund"),
+        require("../talks/eemeli-aro"),
       ],
     },
     {
@@ -82,7 +83,6 @@ module.exports = {
         },
         require("../talks/andrey-okonetchnikov"),
         require("../talks/sven-sauleau"),
-        require("../talks/eemeli-aro"),
       ],
     },
     {
