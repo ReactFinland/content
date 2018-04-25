@@ -66,16 +66,16 @@ module.exports = {
     },
     {
       begin: "15:45",
-      end: "16:30",
+      end: "16:15",
       sessions: [require("../talks/rotem-mizrachi-meidan")],
     },
     {
-      begin: "16:30",
-      end: "17:00",
+      begin: "16:15",
+      end: "16:45",
       sessions: [require("../coffee-breaks").find(o => o.day === day)],
     },
     {
-      begin: "17:00",
+      begin: "16:45",
       end: "17:30",
       sessions: [
         {
