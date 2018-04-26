@@ -64,11 +64,11 @@ module.exports = {
     },
     {
       begin: "16:30",
-      end: "17:00",
+      end: "16:45",
       sessions: [require("../coffee-breaks").find(o => o.day === day)],
     },
     {
-      begin: "17:00",
+      begin: "16:45",
       end: "17:30",
       sessions: [
         {
@@ -76,6 +76,7 @@ module.exports = {
         },
         require("../talks/varya-stepanova"),
         require("../talks/sara-vieira-lightning"),
+        require("../talks/toni-ristola"),
       ],
     },
     {

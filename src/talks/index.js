@@ -17,5 +17,6 @@ module.exports = [
   require("./shay-keinan"),
   require("./sia-karamalegos"),
   require("./sven-sauleau"),
+  require("./toni-ristola"),
   require("./varya-stepanova"),
 ];
