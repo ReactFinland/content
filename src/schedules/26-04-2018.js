@@ -54,8 +54,13 @@ module.exports = {
     },
     {
       begin: "14:45",
-      end: "15:30",
+      end: "15:15",
       sessions: [require("../talks/michal-chudziak")],
+    },
+    {
+      begin: "15:15",
+      end: "15:30",
+      sessions: [require("../talks/toni-ristola")],
     },
     {
       begin: "15:45",
@@ -69,19 +74,12 @@ module.exports = {
     },
     {
       begin: "16:45",
-      end: "17:30",
-      sessions: [
-        {
-          title: "Lightning talks",
-        },
-        require("../talks/varya-stepanova"),
-        require("../talks/sara-vieira-lightning"),
-        require("../talks/toni-ristola"),
-      ],
+      end: "17:00",
+      sessions: [require("../talks/varya-stepanova")],
     },
     {
-      begin: "17:30",
-      end: "18:00",
+      begin: "17:00",
+      end: "17:30",
       sessions: [require("../panels").filter(o => o.day === day)[0]],
     },
     {
