@@ -83,6 +83,7 @@ module.exports = {
         },
         require("../talks/andrey-okonetchnikov"),
         require("../talks/sven-sauleau"),
+        require("../talks/eemeli-aro-2"),
       ],
     },
     {
