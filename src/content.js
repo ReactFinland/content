@@ -96,7 +96,7 @@ function speakersContainSpeakerByName({
 }
 
 function resolveSocialLinks(data) {
-    function resolve(social) {
+    function resolve(social, o) {
         const rules = {
             homepage: social.homepage,
             facebook: `https://facebook.com/${social.facebook}`,
@@ -119,6 +119,6 @@ function resolveSocialLinks(data) {
 
     return data.map(o => ({
         ...o,
-        social: resolve(o.social),
+        social: resolve(o.social, o),
     }));
 }
