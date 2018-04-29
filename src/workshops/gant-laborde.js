@@ -1,7 +1,7 @@
 const keywords = require("../keywords");
 
 module.exports = {
-  speakers: [require("../speakers/gant-laborde")],
+  speakers: [require("../people/gant-laborde")],
   title: "React Native",
   description: `In this beginner workshop you will learn what React Native (RN) consists of, how to write basic applications, how to use Storybook with RN, how to test RN, and finally how to kickstart your own project.`,
   tickets: [
@@ -22,6 +22,6 @@ module.exports = {
       link: "https://ti.to/react-finland/2018/with/w-nkcuf9k-a",
     },
   ],
-  keywords: require("../speakers/gant-laborde").keywords,
+  keywords: require("../people/gant-laborde").keywords,
   location: require("../locations/valkoinen-sali"),
 };

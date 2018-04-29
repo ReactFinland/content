@@ -1,7 +1,7 @@
 const keywords = require("../keywords");
 
 module.exports = {
-  speakers: [require("../speakers/david-khourshid")],
+  speakers: [require("../people/david-khourshid")],
   title: "Reactive State Machines and Statecharts",
   description: `Managing the many user interface states of an application easily becomes complicated. We'll discover how some historical and important computer science concepts – state machines and statecharts – and a functional + reactive approach can make it much easier to understand, visualize, implement, and automatically create tests for complex user interfaces and flows.`,
   tickets: [
@@ -22,6 +22,6 @@ module.exports = {
       link: "https://ti.to/react-finland/2018/with/duwuhyzgmq8",
     },
   ],
-  keywords: require("../speakers/david-khourshid").keywords,
+  keywords: require("../people/david-khourshid").keywords,
   location: require("../locations/elisa-appelsiini"),
 };

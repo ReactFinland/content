@@ -1,7 +1,7 @@
 const keywords = require("../keywords");
 
 module.exports = {
-  speakers: [require("../speakers/rotem-mizrachi-meidan")],
+  speakers: [require("../people/rotem-mizrachi-meidan")],
   title: "Advanced E2E Testing with Detox",
   description: `In this workshop we will get to know the cool features hidden in Detox. By getting to know how Detox works and what makes it deterministic, you will be able write better and more stable tests.
 
@@ -24,6 +24,6 @@ We will experiment with the following:
       link: "https://ti.to/react-finland/2018/with/ldpzefjkijm",
     },
   ],
-  keywords: require("../speakers/rotem-mizrachi-meidan").keywords,
+  keywords: require("../people/rotem-mizrachi-meidan").keywords,
   location: require("../locations/valkoinen-sali"),
 };

@@ -47,7 +47,7 @@ module.exports = `
     name: String!,
     about: String!,
     image: String,
-    type: String,
+    type: [String],
     social: Social,
     keywords: [String],
     keynotes: [Session],

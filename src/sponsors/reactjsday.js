@@ -5,7 +5,7 @@ module.exports = {
   about:
     "ReactJS Day is a one-day, single track conference in Verona",
   image: "sponsors/reactjsday.png",
-  type: enums.PARTNER,
+  type: [enums.PARTNER],
   social: {
     homepage: "http://reactjsday.it/",
     facebook: "reactjsday",

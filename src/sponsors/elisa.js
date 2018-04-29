@@ -4,7 +4,7 @@ module.exports = {
   name: "Elisa",
   about: "Experiences and productivity",
   image: "sponsors/elisa.svg",
-  type: enums.SILVER_SPONSOR,
+  type: [enums.SILVER_SPONSOR],
   social: {
     homepage: "https://elisa.fi/",
     facebook: "elisasuomi",

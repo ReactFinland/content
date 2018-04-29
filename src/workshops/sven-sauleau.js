@@ -1,7 +1,7 @@
 const keywords = require("../keywords");
 
 module.exports = {
-  speakers: [require("../speakers/sven-sauleau")],
+  speakers: [require("../people/sven-sauleau")],
   title: "Babel",
   description: `
 You will learn how to refactor your React code effectively in this workshop by Sven Sauleau, one of the core developers of Babel. He will discuss the following topics:
@@ -30,6 +30,6 @@ You will learn how to refactor your React code effectively in this workshop by S
       link: "https://ti.to/react-finland/2018/with/zcy5fb8uidi",
     },
   ],
-  keywords: require("../speakers/sven-sauleau").keywords,
+  keywords: require("../people/sven-sauleau").keywords,
   location: require("../locations/elisa-appelsiini"),
 };

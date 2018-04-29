@@ -2,7 +2,7 @@ const enums = require("../enums");
 const keywords = require("../keywords");
 
 // TODO: Update to point to the right speaker
-const speaker = require("../speakers/_template");
+const speaker = require("../people/_template");
 
 module.exports = {
   speakers: [speaker],
