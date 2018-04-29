@@ -11,6 +11,7 @@ module.exports = [
   require("./react-day-berlin"),
   require("./react-fest"),
   require("./react-native-eu"),
+  require("./reactjsday"),
   require("./reason-conf"),
   require("./rohea"),
   require("./solita"),
