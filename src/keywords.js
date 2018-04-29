@@ -18,6 +18,7 @@ module.exports = {
   REASON: "Reason",
   SSR: "Server Side Rendering",
   STATE_MANAGEMENT: "State management",
+  STATIC_SITE_GENERATATION: "Static site generation",
   STYLING: "Styling",
   STYLEGUIDIST: "Styleguidist",
   STYLE_GUIDES: "Style guides",

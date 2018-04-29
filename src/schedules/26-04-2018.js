@@ -19,8 +19,13 @@ module.exports = {
     },
     {
       begin: "09:15",
-      end: "10:00",
+      end: "09:45",
       sessions: [require("../talks/ken-wheeler")],
+    },
+    {
+      begin: "09:45",
+      end: "10:00",
+      sessions: [require("../talks/juho-vepsalainen")],
     },
     {
       begin: "10:15",
@@ -66,11 +71,6 @@ module.exports = {
       begin: "15:45",
       end: "16:30",
       sessions: [require("../talks/gant-laborde")],
-    },
-    {
-      begin: "16:30",
-      end: "16:45",
-      sessions: [require("../coffee-breaks").find(o => o.day === day)],
     },
     {
       begin: "16:45",
