@@ -1,6 +1,2 @@
-module.exports = [
-  require("./conference"),
-  require("./day-workshop"),
-  require("./evening-workshop"),
-  require("./morning-workshop"),
-];
+module.exports = Object.values(require('require-dir')());
+

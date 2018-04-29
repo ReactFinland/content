@@ -1,22 +1,2 @@
-module.exports = [
-  require("./christian-alfoni"),
-  require("./david-khourshid"),
-  require("./eemeli-aro"),
-  require("./eemeli-aro-2"),
-  require("./gant-laborde"),
-  require("./jani-evakallio"),
-  require("./kasia-jastrzebska"),
-  require("./ken-wheeler"),
-  require("./nik-graf"),
-  require("./michal-chudziak"),
-  require("./michel-weststrate"),
-  require("./patrick-hund"),
-  require("./patrick-stapfer"),
-  require("./rotem-mizrachi-meidan"),
-  require("./sara-vieira"),
-  require("./shay-keinan"),
-  require("./sia-karamalegos"),
-  require("./sven-sauleau"),
-  require("./toni-ristola"),
-  require("./varya-stepanova"),
-];
+module.exports = Object.values(require('require-dir')());
+
