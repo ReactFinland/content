@@ -61,6 +61,20 @@ assert.equal(
 );
 
 assert.equal(
+  content.presentations.find(
+    o => o.title === "Declarative state and side effects"
+  ).urls.slides,
+  'http://slides.react-finland.fi/2018/02-christian-alfoni.pdf'
+);
+
+assert.equal(
+  content.keynotes.find(
+    o => o.title === "How React changed everything"
+  ).urls.slides,
+  'http://slides.react-finland.fi/2018/13-ken-wheeler.pdf'
+);
+
+assert.equal(
   content.speakers.find(o => o.name === "Christian Alfoni").presentations[0]
     .title,
   content.talks.find(o => o.title === "Declarative state and side effects")

@@ -1,4 +1,5 @@
-const talks = require("./talks");
+const schedules = require("./schedules");
+const talks = resolveSlideUrls(require("./talks"), schedules);
 const people = resolveSocialLinks(require("./people"));
 const enums = require("./enums");
 
@@ -44,7 +45,7 @@ module.exports = {
   silverSponsors,
   bronzeSponsors,
   presentations,
-  schedules: require("./schedules"),
+  schedules,
   speakers: associate(speakers, [
     {
       field: "keynotes",
@@ -134,4 +135,50 @@ function resolveSocialLinks(data) {
     ...o,
     social: resolve(o.social, o),
   }));
+}
+
+function resolveSlideUrls(talks, schedules) {
+  const talksArray = Object.values(talks);
+  const sessions = resolveSessions(schedules).filter(s => talksArray.indexOf(s) >= 0);
+
+  return Object.keys(talks).map((slug) => {
+    const talk = talks[slug];
+    const index = sessions.findIndex(t => t === talk);
+
+    return {
+      urls: {
+        slides: resolveSlideUrl(index + 1, slug)
+      },
+      ...talk
+    }
+  });
+}
+
+function resolveSessions(schedules) {
+  return flatten(schedules.map(({ intervals }) => {
+    return flatten(intervals.map(({ sessions }) => sessions));
+  }));
+}
+
+// https://gist.github.com/Integralist/749153aa53fea7168e7e
+function flatten(list) {
+  return list.reduce(
+    (a, b) => a.concat(Array.isArray(b) ? flatten(b) : b), []
+  );
+};
+
+function resolveSlideUrl(index, slug) {
+  return `http://slides.react-finland.fi/2018/${leftFill({ amount: 2, character: 0, input: index })}-${slug}.pdf`
+}
+
+function leftFill({ amount, character, input }) {
+  const realAmount = amount - (input.toString()).length;
+
+  if (realAmount < 1) {
+    return input;
+  }
+
+  const characters = new Array(realAmount).fill(character).join('');
+
+  return characters + input;
 }

@@ -31,7 +31,13 @@ module.exports = `
     speakers: [Contact],
     tickets: [Ticket],
     keywords: [String],
-    location: Contact
+    location: Contact,
+    urls: SessionUrls
+  }
+
+  type SessionUrls {
+    slides: String,
+    video: String
   }
 
   type Page {

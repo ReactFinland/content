@@ -1,2 +1,2 @@
-module.exports = Object.values(require('require-dir')());
+module.exports = require('require-dir')();
 
