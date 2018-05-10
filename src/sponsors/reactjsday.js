@@ -2,8 +2,7 @@ const enums = require("../enums");
 
 module.exports = {
   name: "ReactJs Day",
-  about:
-    "ReactJS Day is a one-day, single track conference in Verona",
+  about: "ReactJS Day is a one-day, single track conference in Verona",
   image: "sponsors/reactjsday.png",
   type: [enums.PARTNER],
   social: {

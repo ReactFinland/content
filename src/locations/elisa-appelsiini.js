@@ -1,4 +1,4 @@
-const sponsor = require('../sponsors/elisa');
+const sponsor = require("../sponsors/elisa");
 
 module.exports = {
   name: "Elisa Appelsiini",
@@ -11,6 +11,6 @@ module.exports = {
     code: "FI",
   },
   city: "Helsinki",
-  address: "Kaarlenkatu 11", 
-  keywords: sponsor.keywords
+  address: "Kaarlenkatu 11",
+  keywords: sponsor.keywords,
 };

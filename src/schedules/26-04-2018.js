@@ -13,9 +13,9 @@ module.exports = {
       end: "09:15",
       sessions: [
         {
-          title: "Opening ceremonies"
-        }
-      ]
+          title: "Opening ceremonies",
+        },
+      ],
     },
     {
       begin: "09:15",
@@ -87,8 +87,8 @@ module.exports = {
       end: "18:45",
       sessions: [
         {
-          title: "Buses leave to after party (Sea Life, Tivolikuja 10)"
-        }
+          title: "Buses leave to after party (Sea Life, Tivolikuja 10)",
+        },
       ],
     },
   ],
