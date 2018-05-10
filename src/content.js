@@ -139,46 +139,52 @@ function resolveSocialLinks(data) {
 
 function resolveSlideUrls(talks, schedules) {
   const talksArray = Object.values(talks);
-  const sessions = resolveSessions(schedules).filter(s => talksArray.indexOf(s) >= 0);
+  const sessions = resolveSessions(schedules).filter(
+    s => talksArray.indexOf(s) >= 0
+  );
 
-  return Object.keys(talks).map((slug) => {
+  return Object.keys(talks).map(slug => {
     const talk = talks[slug];
     const index = sessions.findIndex(t => t === talk);
 
     return {
       urls: {
-        slides: resolveSlideUrl(index + 1, slug)
+        slides: resolveSlideUrl(index + 1, slug),
       },
-      ...talk
-    }
+      ...talk,
+    };
   });
 }
 
 function resolveSessions(schedules) {
-  return flatten(schedules.map(({ intervals }) => {
-    return flatten(intervals.map(({ sessions }) => sessions));
-  }));
+  return flatten(
+    schedules.map(({ intervals }) => {
+      return flatten(intervals.map(({ sessions }) => sessions));
+    })
+  );
 }
 
 // https://gist.github.com/Integralist/749153aa53fea7168e7e
 function flatten(list) {
-  return list.reduce(
-    (a, b) => a.concat(Array.isArray(b) ? flatten(b) : b), []
-  );
-};
+  return list.reduce((a, b) => a.concat(Array.isArray(b) ? flatten(b) : b), []);
+}
 
 function resolveSlideUrl(index, slug) {
-  return `http://slides.react-finland.fi/2018/${leftFill({ amount: 2, character: 0, input: index })}-${slug}.pdf`
+  return `https://slides.react-finland.fi/2018/${leftFill({
+    amount: 2,
+    character: 0,
+    input: index,
+  })}-${slug}.pdf`;
 }
 
 function leftFill({ amount, character, input }) {
-  const realAmount = amount - (input.toString()).length;
+  const realAmount = amount - input.toString().length;
 
   if (realAmount < 1) {
     return input;
   }
 
-  const characters = new Array(realAmount).fill(character).join('');
+  const characters = new Array(realAmount).fill(character).join("");
 
   return characters + input;
 }
