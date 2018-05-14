@@ -12,4 +12,7 @@ But most importantly, we will take a look at the core idea of React, and why it 
   `,
   type: enums.KEYNOTE,
   keywords: speaker.keywords,
+  urls: {
+    web: "https://reactfinland.surge.sh/",
+  },
 };

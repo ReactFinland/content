@@ -36,6 +36,7 @@ module.exports = `
   }
 
   type SessionUrls {
+    web: String,
     slides: String,
     video: String
   }

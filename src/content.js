@@ -148,10 +148,11 @@ function resolveSlideUrls(talks, schedules) {
     const index = sessions.findIndex(t => t === talk);
 
     return {
+      ...talk,
       urls: {
+        ...talk.urls,
         slides: resolveSlideUrl(index + 1, slug),
       },
-      ...talk,
     };
   });
 }

@@ -64,14 +64,19 @@ assert.equal(
   content.presentations.find(
     o => o.title === "Declarative state and side effects"
   ).urls.slides,
-  'https://slides.react-finland.fi/2018/02-christian-alfoni.pdf'
+  "https://slides.react-finland.fi/2018/02-christian-alfoni.pdf"
 );
 
 assert.equal(
-  content.keynotes.find(
-    o => o.title === "How React changed everything"
-  ).urls.slides,
-  'https://slides.react-finland.fi/2018/13-ken-wheeler.pdf'
+  content.keynotes.find(o => o.title === "How React changed everything").urls
+    .slides,
+  "https://slides.react-finland.fi/2018/13-ken-wheeler.pdf"
+);
+
+assert.equal(
+  content.keynotes.find(o => o.title === "How React changed everything").urls
+    .web,
+  "https://reactfinland.surge.sh/"
 );
 
 assert.equal(

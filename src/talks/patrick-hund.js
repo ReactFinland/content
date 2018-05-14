@@ -12,4 +12,8 @@ it is to use context now and how to migrate your old context code to the new API
   `,
   type: enums.LIGHTNING_TALK,
   keywords: speaker.keywords,
+  urls: {
+    web:
+      "https://technology-ebay-de.github.io/get-rich-quick-with-react-context/#/",
+  },
 };
