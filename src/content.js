@@ -35,6 +35,7 @@ module.exports = {
   year: "2018",
   packageName: "@react-finland/content-2018",
   staticFilePath: "images",
+  websiteUrl: "https://react-finland.fi/",
   breakfasts: require("./breakfasts"),
   coffeeBreaks: require("./coffee-breaks"),
   locations: resolveSocialLinks(require("./locations")),
