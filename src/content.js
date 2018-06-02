@@ -30,10 +30,10 @@ const bronzeSponsors = sponsors.filter(({ type }) =>
 );
 
 module.exports = {
-  id: "react-finland-2018",
-  name: "React Finland 2018",
+  id: "react-finland",
+  name: "React Finland",
   year: "2018",
-  packageName: "@react-finland/content-2018",
+  packageName: "@react-finland/content",
   staticFilePath: "images",
   websiteUrl: "https://react-finland.fi/",
   breakfasts: require("./breakfasts"),
