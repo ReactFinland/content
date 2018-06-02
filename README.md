@@ -1,6 +1,6 @@
-[![build status](https://secure.travis-ci.org/ReactFinland/content-2018.svg)](http://travis-ci.org/ReactFinland/content-2018) [![codecov](https://codecov.io/gh/ReactFinland/content-2018/branch/master/graph/badge.svg)](https://codecov.io/gh/ReactFinland/content-2018)
+[![build status](https://secure.travis-ci.org/ReactFinland/content.svg)](http://travis-ci.org/ReactFinland/content) [![codecov](https://codecov.io/gh/ReactFinland/content/branch/master/graph/badge.svg)](https://codecov.io/gh/ReactFinland/content)
 
-# React Finland 2018 Content
+# React Finland Content
 
 The content of the conference in JavaScript format. Please use [semantic commit message format](https://github.com/semantic-release/semantic-release#commit-message-format):
 

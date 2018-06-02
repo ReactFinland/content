@@ -1,7 +1,7 @@
 {
-  "name": "@react-finland/content-2018",
+  "name": "@react-finland/content",
   "version": "0.0.0-development",
-  "description": "React Finland 2018 content",
+  "description": "React Finland content",
   "main": "./src",
   "scripts": {
     "format": "prettier ./src/**/{*.js,*.json} --write",
@@ -29,10 +29,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ReactFinland/content-2018.git"
+    "url": "https://github.com/ReactFinland/content.git"
   },
   "bugs": {
-    "url": "https://github.com/ReactFinland/content-2018/issues"
+    "url": "https://github.com/ReactFinland/content/issues"
   },
   "dependencies": {
     "require-dir": "^1.0.0"
